@@ -15,6 +15,11 @@ https://bethlinkstorwekar.github.io/Monday_Morning_Drip/
    the existing files. Copy the text exactly as sent; do not rewrite or add
    findings. Unwrap Gmail links: `https://www.google.com/url?q=<REAL URL>&source=gmail...`
    becomes `<REAL URL>`. Colors: `teal`, `coral`, `purple`, `slate`.
+   **Redact personal details for the public site:** drop any "Congrats!" chip
+   or other personal shout-out, and replace mentions of OHSU (e.g. "may need
+   an OHSU login") with a generic phrase ("an institutional login"). Keep
+   author names that are part of a normal citation. The AI-generated
+   disclaimer is added by the build script; don't remove it.
 4. Run `python3 scripts/build_site.py` and check that it prints the new issue.
 5. Commit `content/` and `docs/` and push to the publishing branch.
 
