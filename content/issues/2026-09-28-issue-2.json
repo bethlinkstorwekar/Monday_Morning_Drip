@@ -4,18 +4,59 @@
   "week_label": "Week of Sept 28, 2026",
   "breath_title": "&quot;Ready&quot; has to be proven now.",
   "breath_text": "The ABP just opened a 2-year fellowship path in 7 subspecialties for programs that can show readiness with EPAs. That makes trustworthy assessment data priceless, and a JGME study finds AI summaries of rotation comments catch most strengths but miss most areas for improvement. On the recruitment side, signals dominate who gets an interview, and a small PHM pilot shows how far a structured mentoring cohort can move confidence.",
-  "in_this_issue": ["AI summaries for your CCC", "Signals and interview invites", "Mentorship for women in PHM"],
+  "in_this_issue": [
+    "AI summaries for your CCC",
+    "Signals and interview invites",
+    "Mentorship for women in PHM"
+  ],
   "calendar": [
-    {"mon": "OCT", "day": "1", "text": "<b>APA Young Investigator Award proposals close.</b>", "link_label": "Details", "url": "https://medicine.yale.edu/pediatrics/news/newsletter-pmerc/newsletter-issue/opportunities-for-educators-lead-learn-disseminate-09-01-2026/"},
-    {"mon": "OCT", "day": "5", "text": "<b>Earliest peds interview invites.</b> Virtual-only interviews.", "link_label": "APPD", "url": "https://www.appd.org/wp-content/uploads/2026/06/2026-27-Pediatrics-Residency-Recruitment-Recommendations-.pdf"},
-    {"mon": "OCT", "day": "22", "text": "<b>ACGME Common Program Requirements comments due.</b>", "link_label": "Comment", "url": "https://www.acgme.org/programs-and-institutions/programs/review-and-comment/"},
-    {"mon": "NOV", "day": "2", "text": "<b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b>", "link_label": "APPD", "url": "https://www.appd.org/meetings-education/spring/2027-2/"},
-    {"mon": "DEC", "day": "1", "text": "<b>APPD med ed abstracts due.</b>"}
+    {
+      "mon": "OCT",
+      "day": "1",
+      "text": "<b>APA Young Investigator Award proposals close.</b>",
+      "link_label": "Details",
+      "url": "https://medicine.yale.edu/pediatrics/news/newsletter-pmerc/newsletter-issue/opportunities-for-educators-lead-learn-disseminate-09-01-2026/"
+    },
+    {
+      "mon": "OCT",
+      "day": "5",
+      "text": "<b>Earliest peds interview invites.</b> Virtual-only interviews.",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/wp-content/uploads/2026/06/2026-27-Pediatrics-Residency-Recruitment-Recommendations-.pdf"
+    },
+    {
+      "mon": "OCT",
+      "day": "22",
+      "text": "<b>ACGME Common Program Requirements comments due.</b>",
+      "link_label": "Comment",
+      "url": "https://www.acgme.org/programs-and-institutions/programs/review-and-comment/"
+    },
+    {
+      "mon": "NOV",
+      "day": "2",
+      "text": "<b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b>",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/meetings-education/spring/2027-2/"
+    },
+    {
+      "mon": "DEC",
+      "day": "1",
+      "text": "<b>APPD med ed abstracts due.</b>"
+    }
   ],
   "top": [
     {
       "color": "purple",
-      "chips": [["AI", "purple"], ["Assessment", "coral"]],
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Assessment",
+          "coral"
+        ]
+      ],
       "headline": "Can ChatGPT prep your CCC packet? It finds the praise and misses the critique",
       "bullets": [
         "277 end-of-rotation assessments for 25 residents: de-identifying took ~60 min, and 3 LLMs labeled the comments in <b>under 7 min each</b>.",
@@ -24,11 +65,25 @@
       "tip_label": "Why it matters:",
       "tip": "the comments a CCC most needs are the ones the models missed. Let AI compile, but have a human read every constructive comment.",
       "citation": "Cooney CM, Slattery R, Cooney DS, Lifchez SD, Park JE. <i>J Grad Med Educ</i>. Aug 2026. PMID 42602997. doi:10.4300/JGME-D-25-01049.1",
-      "links": [{"label": "Full text", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475740/"}]
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475740/"
+        }
+      ]
     },
     {
       "color": "coral",
-      "chips": [["GME", "teal"], ["Selection", "coral"]],
+      "chips": [
+        [
+          "GME",
+          "teal"
+        ],
+        [
+          "Selection",
+          "coral"
+        ]
+      ],
       "headline": "Signals rule the interview list, and gold signals rule most of all",
       "bullets": [
         "ERAS 2023-24 data from 6 specialties (peds not included): a signal raised interview odds <b>4.7-7.4x</b> with few signals, <b>8.4-18.5x</b> with many, and up to <b>55-218x</b> for gold signals in 2-tier systems.",
@@ -37,11 +92,25 @@
       "tip_label": "Try this:",
       "tip": "peds invites can go out Oct 5. Before you screen, agree as a committee on how much a signal should weigh so it&#39;s applied consistently.",
       "citation": "Guthrie ST, Griffith B, Hammoud MM, et al. <i>Acad Med</i>. Online Aug 3, 2026. doi:10.1093/acamed/wvag206",
-      "links": [{"label": "Full text", "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag206/8750128"}]
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag206/8750128"
+        }
+      ]
     },
     {
       "color": "teal",
-      "chips": [["PHM", "teal"], ["Faculty dev", "coral"]],
+      "chips": [
+        [
+          "PHM",
+          "teal"
+        ],
+        [
+          "Faculty dev",
+          "coral"
+        ]
+      ],
       "headline": "SHINE: six hours that grew early-career PHM women&#39;s mentor networks",
       "bullets": [
         "A 2025 national pilot for trainee and early-career women in PHM: six 1-hour sessions on negotiation, job search, promotion, branding, and mentorship.",
@@ -50,21 +119,104 @@
       "tip_label": "Why it matters:",
       "tip": "a light-touch cohort model is easy to borrow for chiefs or PHM fellows. Caveats: small, self-reported, no control group.",
       "citation": "&quot;Evaluation of a National Mentorship Pilot Program for Early-Career Women in PHM.&quot; <i>Hosp Pediatr</i>. Online Sept 14, 2026. PMID 42732884. doi:10.1542/hpeds.2026-009354",
-      "links": [{"label": "Full text", "url": "https://doi.org/10.1542/hpeds.2026-009354"}]
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1542/hpeds.2026-009354"
+        }
+      ]
     }
   ],
   "news": [
-    {"text": "<b>ABP opens a 2-year fellowship path.</b> Starting with fellows who enter in July 2028, programs in 7 subspecialties (adolescent medicine, DBP, PEM, endocrinology, ID, nephrology, rheumatology) can petition for a 2-year clinically focused track. They need EPA-based CBME and must extend training for any fellow not ready at 24 months. Applications open early 2027.", "links": [{"label": "ABP", "url": "https://www.abp.org/news/press-release/abp-announces-petition-process-two-year-clinically-focused-subspecialty-training-pathway"}, {"label": "Criteria", "url": "https://www.abp.org/cbme/two-year-pathway"}]},
-    {"text": "<b>ACGME renames &quot;complaints.&quot;</b> They&#39;re now &quot;Non-Compliance Reports,&quot; with the same purpose and review process. There&#39;s also new free microlearning on direct observation (0.25-0.5 CME).", "links": [{"label": "ACGME", "url": "https://www.acgme.org/newsroom/e-communication/2026/september-21-2026/"}]}
+    {
+      "text": "<b>ABP opens a 2-year fellowship path.</b> Starting with fellows who enter in July 2028, programs in 7 subspecialties (adolescent medicine, DBP, PEM, endocrinology, ID, nephrology, rheumatology) can petition for a 2-year clinically focused track. They need EPA-based CBME and must extend training for any fellow not ready at 24 months. Applications open early 2027.",
+      "links": [
+        {
+          "label": "ABP",
+          "url": "https://www.abp.org/news/press-release/abp-announces-petition-process-two-year-clinically-focused-subspecialty-training-pathway"
+        },
+        {
+          "label": "Criteria",
+          "url": "https://www.abp.org/cbme/two-year-pathway"
+        }
+      ]
+    },
+    {
+      "text": "<b>ACGME renames &quot;complaints.&quot;</b> They&#39;re now &quot;Non-Compliance Reports,&quot; with the same purpose and review process. There&#39;s also new free microlearning on direct observation (0.25-0.5 CME).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/september-21-2026/"
+        }
+      ]
+    }
   ],
   "acadpeds": [
-    {"chips": [["Primary care", "slate"], ["Training gap", "coral"]], "text": "<b>Dual language learners.</b> Of 349 pediatric providers, 79% struggled to spot language delays in DLLs when they didn&#39;t share the family&#39;s language (vs 7% for monolingual kids). Bilingualism training went with more culturally effective care.", "authors": "Guendica M, et al.", "url": "https://doi.org/10.1016/j.acap.2026.103451"},
-    {"chips": [["Adolescent", "slate"]], "text": "<b>The P-CASH scale.</b> A new 3-factor confidence scale (141 providers; alpha 0.90-0.95) found pediatric providers less confident than non-pediatric providers in adolescent sexual health on all 3 subscales.", "authors": "Gerchow L, et al.", "url": "https://doi.org/10.1016/j.acap.2026.103454"},
-    {"chips": [["Peds GME", "teal"]], "text": "<b>&quot;Diagnosing the Trainee in Difficulty.&quot;</b> From the APPD Faculty and Professional Development Task Force. <i>Title only; it&#39;s a discussion piece with no abstract.</i>", "authors": "Arndt A, Berger G.", "url": "https://doi.org/10.1016/j.acap.2026.103440"}
+    {
+      "chips": [
+        [
+          "Primary care",
+          "slate"
+        ],
+        [
+          "Training gap",
+          "coral"
+        ]
+      ],
+      "text": "<b>Dual language learners.</b> Of 349 pediatric providers, 79% struggled to spot language delays in DLLs when they didn&#39;t share the family&#39;s language (vs 7% for monolingual kids). Bilingualism training went with more culturally effective care.",
+      "authors": "Guendica M, et al.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103451"
+    },
+    {
+      "chips": [
+        [
+          "Adolescent",
+          "slate"
+        ]
+      ],
+      "text": "<b>The P-CASH scale.</b> A new 3-factor confidence scale (141 providers; alpha 0.90-0.95) found pediatric providers less confident than non-pediatric providers in adolescent sexual health on all 3 subscales.",
+      "authors": "Gerchow L, et al.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103454"
+    },
+    {
+      "chips": [
+        [
+          "Peds GME",
+          "teal"
+        ]
+      ],
+      "text": "<b>&quot;Diagnosing the Trainee in Difficulty.&quot;</b> From the APPD Faculty and Professional Development Task Force. <i>Title only; it&#39;s a discussion piece with no abstract.</i>",
+      "authors": "Arndt A, Berger G.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103440"
+    }
   ],
   "quick": [
-    {"chips": [["Transitions", "coral"]], "text": "<b>Handoff as ritual:</b> 14 EM residents described group handoff as a ritual that builds community, norms, and hierarchy, not just a way to pass information. Zvonar I, et al. <i>Acad Med</i>, online Aug 13.", "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag252/8760969"},
-    {"chips": [["Faculty", "teal"]], "text": "<b>Academic Advocacy Guidelines in Pediatrics.</b> Black AK, Pulcini CD, et al. <i>Pediatrics</i>, Sept 18. <i>Title only; no abstract in PubMed.</i>", "url": "https://doi.org/10.1542/peds.2026-076507"}
+    {
+      "chips": [
+        [
+          "Transitions",
+          "coral"
+        ]
+      ],
+      "text": "<b>Handoff as ritual:</b> 14 EM residents described group handoff as a ritual that builds community, norms, and hierarchy, not just a way to pass information. Zvonar I, et al. <i>Acad Med</i>, online Aug 13.",
+      "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag252/8760969"
+    },
+    {
+      "chips": [
+        [
+          "Faculty",
+          "teal"
+        ]
+      ],
+      "text": "<b>Academic Advocacy Guidelines in Pediatrics.</b> Black AK, Pulcini CD, et al. <i>Pediatrics</i>, Sept 18. <i>Title only; no abstract in PubMed.</i>",
+      "url": "https://doi.org/10.1542/peds.2026-076507"
+    }
   ],
-  "footer": "Summaries come from abstracts I read: NCBI for JGME and <i>Hosp Pediatr</i>, ScienceDirect for <i>Acad Peds</i>, and OUP for <i>Acad Med</i>. News comes from ABP, ACGME, AAMC, and APPD pages. Rate limits blocked this week&#39;s title lists for JGME, <i>Med Educ</i>, <i>Med Teach</i>, <i>JAMA Pediatrics</i>, and other med ed journals, so a new JGME issue may have been missed. Full text may need an institutional login. Please verify before citing."
+  "footer": "Summaries come from abstracts I read: NCBI for JGME and <i>Hosp Pediatr</i>, ScienceDirect for <i>Acad Peds</i>, and OUP for <i>Acad Med</i>. News comes from ABP, ACGME, AAMC, and APPD pages. Rate limits blocked this week&#39;s title lists for JGME, <i>Med Educ</i>, <i>Med Teach</i>, <i>JAMA Pediatrics</i>, and other med ed journals, so a new JGME issue may have been missed. Full text may need an institutional login. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-09-28-issue-2.mp3",
+    "bytes": 2973779,
+    "seconds": 372,
+    "voice": "en_US-lessac-high"
+  }
 }

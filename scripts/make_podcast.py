@@ -14,6 +14,7 @@ Needs: pip install piper-tts lameenc, plus the voice model below
 import json
 import os
 import pathlib
+import re
 import sys
 
 import lameenc
@@ -25,6 +26,21 @@ VOICE = os.environ.get("DRIP_VOICE", str(pathlib.Path.home() / "voices" / "en_US
 PAUSE_S = 0.6       # silence between paragraphs
 LENGTH_SCALE = 1.05  # >1 speaks a little slower
 BITRATE = 64         # kbps, mono; ~0.5 MB per minute
+
+# Spoken-only fixes for words the voice mispronounces. Add to this list when a
+# new acronym comes out wrong (check with voice.phonemize("WORD")).
+SAY = {
+    "EPAs": "E P A's", "EPA": "E P A",
+    "ACGME": "A-C-G-M-E", "APPD": "A-P-P-D", "APA": "A-P-A",
+    "PAS": "P.A.S", "AAMC": "A-A-M-C", "NRMP": "N-R-M-P", "ABP": "A-B-P",
+    "UME": "U-M-E", "JGME": "J-G-M-E", "MPPDA": "M-P-P-D-A", "DLLs": "D L L's",
+}
+
+
+def speakable(text):
+    for word, spoken in SAY.items():
+        text = re.sub(rf"\b{re.escape(word)}\b", spoken, text)
+    return text
 
 
 def main():
@@ -41,7 +57,7 @@ def main():
 
     pcm = bytearray()
     for para in [p.strip() for p in script.read_text().split("\n\n") if p.strip()]:
-        for chunk in voice.synthesize(" ".join(para.split()), cfg):
+        for chunk in voice.synthesize(speakable(" ".join(para.split())), cfg):
             pcm += chunk.audio_int16_bytes
         pcm += silence
 
