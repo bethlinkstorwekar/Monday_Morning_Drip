@@ -66,6 +66,14 @@ a{color:var(--teal)}
 .ap .au{color:var(--muted);font-size:13px}
 .qh{padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
 .foot{background:var(--gray);border-radius:10px;padding:14px 16px;font-size:12px;color:var(--muted);margin-top:22px}
+.tabs{display:flex;gap:8px;padding:14px 24px 0;background:var(--card)}
+.tab{flex:1;display:block;text-decoration:none;border:2px solid var(--teal);border-radius:10px;padding:10px 14px;color:var(--teal)}
+.tab .t{display:block;font:bold 17px Georgia,'Times New Roman',serif}
+.tab .sub{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.tab.on{background:var(--teal);color:#fff}.tab.on .sub{color:#d6ecea}
+.tab:hover{box-shadow:0 2px 6px rgba(14,110,115,.25)}
+.older{margin:14px 24px 0;background:var(--blush);border-radius:8px;padding:10px 14px;font-size:14px}
+@media (max-width:520px){.tabs{padding:12px 16px 0}.older{margin:12px 16px 0}.tab{padding:8px 10px}.tab .t{font-size:15px}}
 .ainote{margin-top:14px;border:1px dashed var(--line);border-radius:8px;padding:8px 12px;font-size:12px;color:var(--muted)}
 .sign{text-align:center;font-size:12px;color:var(--muted);padding:0 20px 20px}
 .nav{display:flex;justify-content:space-between;gap:12px;font-size:14px;margin:18px 4px 0}
@@ -111,9 +119,28 @@ def page(title, body, desc="", depth=0):
 """
 
 
-def masthead(kicker, meta, depth):
+SITE = {}
+
+
+def tabs(active, depth):
     up = "../" * depth
-    return f"""<header class="mast"><div class="kicker">{kicker}</div>
+    latest = SITE["latest"]
+    cur = "tab on" if active == "current" else "tab"
+    arc = "tab on" if active == "archive" else "tab"
+    return (f'<nav class="tabs" aria-label="Site">'
+            f'<a class="{cur}" href="{up}index.html"><span class="t">&#9749; Current issue</span>'
+            f'<span class="sub">Issue {latest["issue"]} &middot; {esc(latest["week_label"])}</span></a>'
+            f'<a class="{arc}" href="{up}archive.html"><span class="t">&#128218; Archive</span>'
+            f'<span class="sub">All {SITE["count"]} issues</span></a></nav>')
+
+
+def masthead(kicker, meta, depth, active=None):
+    up = "../" * depth
+    older = ""
+    if active is None:
+        older = (f'<div class="older">You&#39;re reading an earlier issue. '
+                 f'<a class="more" href="{up}index.html">Go to the current issue &rsaquo;</a></div>')
+    return tabs(active, depth) + older + f"""<header class="mast" style="margin-top:14px"><div class="kicker">{kicker}</div>
 <div class="title"><a href="{up}index.html">The Monday Morning <span>Drip</span></a></div>
 <div class="tag">Pediatric med ed for the busy educator</div>
 <div class="meta">{meta}</div>
@@ -124,10 +151,10 @@ def slug(d):
     return f"{d['date_iso']}-issue-{d['issue']}"
 
 
-def render_issue(d, depth):
+def render_issue(d, depth, active=None):
     p = []
     p.append(masthead(f"Pediatric Med Ed &middot; Issue {d['issue']}",
-                      f"&#9749; Freshly brewed every Monday<br>{esc(d['week_label'])} &middot; ~5-min read", depth))
+                      f"&#9749; Freshly brewed every Monday<br>{esc(d['week_label'])} &middot; ~5-min read", depth, active))
     p.append('<main class="body">')
     p.append(f'<section class="breath"><div class="label">THIS WEEK IN ONE BREATH</div>'
              f'<h2>{d["breath_title"]}</h2><p>{d["breath_text"]}</p></section>')
@@ -211,27 +238,28 @@ def main():
     issues.sort(key=lambda d: (d["date_iso"], d["issue"]))
     if not issues:
         raise SystemExit("no issues found in content/issues")
+    SITE.update(latest=issues[-1], count=len(issues))
     (OUT / "issues").mkdir(parents=True, exist_ok=True)
     (OUT / ".nojekyll").write_text("")
 
     for i, d in enumerate(issues):
         prev = issues[i - 1] if i > 0 else None
         nxt = issues[i + 1] if i + 1 < len(issues) else None
-        body = render_issue(d, 1) + nav(prev, nxt, 1)
+        body = render_issue(d, 1, "current" if nxt is None else None) + nav(prev, nxt, 1)
         (OUT / "issues" / f"{slug(d)}.html").write_text(
             page(f"Issue {d['issue']} - The Monday Morning Drip", body, html.unescape(d["breath_title"]), 1))
 
     latest = issues[-1]
     prev = issues[-2] if len(issues) > 1 else None
     (OUT / "index.html").write_text(
-        page("The Monday Morning Drip", render_issue(latest, 0) + nav(prev, None, 0),
+        page("The Monday Morning Drip", render_issue(latest, 0, "current") + nav(prev, None, 0),
              "Pediatric med ed for the busy educator. A fresh issue every Monday."))
 
     rows = []
     for d in reversed(issues):
         rows.append(f'<li><a href="issues/{slug(d)}.html">Issue {d["issue"]}: {d["breath_title"]}</a>'
                     f'<div class="s">{esc(d["week_label"])} &middot; {" &bull; ".join(esc(x) for x in d.get("in_this_issue", []))}</div></li>')
-    arch = ('<div class="sheet">' + masthead("Archive", f"{len(issues)} issues so far", 0)
+    arch = ('<div class="sheet">' + masthead("Archive", f"{len(issues)} issues so far", 0, "archive")
             + '<main class="body"><div class="sec" style="color:var(--teal)">ALL ISSUES</div><ul class="arch">'
             + "".join(rows) + "</ul></main></div>")
     (OUT / "archive.html").write_text(page("Archive - The Monday Morning Drip", arch))
