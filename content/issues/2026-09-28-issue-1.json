@@ -1,0 +1,73 @@
+{
+  "issue": 1,
+  "date_iso": "2026-09-28",
+  "week_label": "Week of Sept 28, 2026",
+  "breath_title": "&quot;Ready for what?&quot;",
+  "breath_text": "Pediatric PDs feel a heavy moral duty to call graduates practice-ready but define readiness differently, just as the ABP moves to EPA-based attestations in 2028. On the way in, pediatrics-specific signals (the NBME shelf, clerkship honors, GHHS) modestly predict early Milestones. Once residents arrive, the hidden struggles are about adapting to the workplace, and <i>Academic Pediatrics</i> shows how help-seeking and autonomy develop along the way.",
+  "in_this_issue": ["Practice readiness", "What predicts intern performance", "What PDs wish they knew at handover"],
+  "calendar": [
+    {"mon": "OCT", "day": "5", "text": "<b>Earliest peds interview invites.</b> Virtual-only interviews; no in-person visits before Feb 2.", "link_label": "APPD", "url": "https://www.appd.org/wp-content/uploads/2026/06/2026-27-Pediatrics-Residency-Recruitment-Recommendations-.pdf"},
+    {"mon": "OCT", "day": "22", "text": "<b>Comments due on the ACGME Common Program Requirements.</b>", "link_label": "Impact statement", "url": "https://www.acgme.org/globalassets/pfassets/reviewandcomment/2026/cpr_impact_09082026.pdf"},
+    {"mon": "NOV", "day": "2", "text": "<b>APPD Spring 2027 Enhanced Learning Session proposals due.</b> Indianapolis, with MPPDA.", "link_label": "APPD", "url": "https://www.appd.org/meetings-education/spring/2027-2/"},
+    {"mon": "DEC", "day": "1", "text": "<b>APPD med ed abstracts due.</b> Submission opens the week of Oct 12."}
+  ],
+  "top": [
+    {
+      "color": "teal",
+      "chips": [["Peds GME", "teal"], ["Assessment", "coral"]],
+      "headline": "&quot;Readiness for what?&quot; How pediatric PDs decide a graduate is practice-ready",
+      "bullets": [
+        "In a grounded theory study, 15 pediatric PDs described an &quot;immense moral responsibility&quot; for the practice-readiness call.",
+        "Definitions split three ways: ready as a <b>general pediatrician regardless of career plans</b>, ready for the <b>specific setting</b> the resident is headed to, or ready for <b>fellowship</b>."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "the ABP moves to EPA-based readiness attestations in 2028. Programs and CCCs need a shared answer to &quot;ready for what?&quot; before then.",
+      "citation": "&quot;Program Directors&#39; Varied Conceptions of Practice Readiness.&quot; <i>Pediatrics</i>. Online Sept 2, 2026. PMID 42680169. doi:10.1542/peds.2026-077198",
+      "links": [{"label": "Full text", "url": "https://doi.org/10.1542/peds.2026-077198"}]
+    },
+    {
+      "color": "coral",
+      "chips": [["Peds GME", "teal"], ["Selection", "coral"]],
+      "headline": "Screening season: what actually predicts pediatric intern performance?",
+      "bullets": [
+        "<b>ERAS metrics</b> (518 residents, 10 programs): <b>GHHS</b> (B=0.15, P=.009) and <b>Step 2 CK</b> (B=0.06, P=.007) were associated with overall Milestone performance.",
+        "<b>Medical school metrics</b> (414 graduates, 5 sites; Milestones for 228): the <b>NBME Pediatrics shelf</b> was the only factor tied to all 6 competencies, and <b>peds clerkship honors</b> predicted Professionalism and Patient Care."
+      ],
+      "tip_label": "Synthesis:",
+      "tip": "effects are small, and Milestone data were missing for about 45% of graduates in the second study. Use these as nudges in holistic review, not cutoffs.",
+      "citation": "<i>J Grad Med Educ</i>. Aug 2026. doi:10.4300/jgme-d-25-00854.1 and doi:10.4300/jgme-d-25-01139.1",
+      "links": [
+        {"label": "ERAS metrics", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475749/"},
+        {"label": "Med school metrics", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475741/"}
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [["GME", "teal"], ["Transitions", "coral"]],
+      "headline": "The &quot;unknowable&quot; intern: what PDs wish they&#39;d known at handover",
+      "bullets": [
+        "19 PDs across FM, IM, OB, <b>peds</b>, and surgery shared 38 stories of residents who struggled. The surprises were usually <b>workplace adaptation</b>, not knowledge.",
+        "Three kinds of information gaps: <b>known but ambiguous</b>, <b>knowable but absent</b>, and <b>currently unknowable</b> until the resident arrives."
+      ],
+      "tip_label": "Try this:",
+      "tip": "add adaptation signals (asking for help, workflow, team integration) to your early-intern check-ins.",
+      "citation": "Bowen JL, Cooper DM, Larson RW, et al. <i>Acad Med</i>. 2026;101(10):1289-96. doi:10.1093/acamed/wvag120",
+      "links": [{"label": "Full text", "url": "https://academic.oup.com/academicmedicine/article/101/10/1289/8651729"}]
+    }
+  ],
+  "news": [
+    {"text": "<b>The ACGME proposes a 43% cut to its Common Program Requirements.</b> The GMEC would approve PD appointments, and the 3-year PD experience minimum would go. New well-being rules: safe options for residents too fatigued to drive home, protected lactation time, and schedule changes during pregnancy. Target date: July 2028.", "links": [{"label": "ACGME", "url": "https://www.acgme.org/newsroom/e-communication/2026/september-8-2026/"}]}
+  ],
+  "acadpeds": [
+    {"chips": [["Peds GME", "teal"], ["Congrats!", "coral"]], "text": "<b>&quot;Do I Need Help?&quot; Interns on night float.</b> In 19 stories from 12 interns, help-seeking fell into three patterns: <i>need help now</i>, <i>do I need help?</i>, and <i>should wait</i>. Acuity and uncertainty sped up calls; not wanting to bother the supervisor slowed them.", "authors": "Links Torwekar B, et al.", "url": "https://doi.org/10.1016/j.acap.2026.103448"},
+    {"chips": [["Peds GME", "teal"]], "text": "<b>Autonomy grows up.</b> 14 PHM fellows followed for 3 years into attending practice moved from &quot;complete independence&quot; to a collaborative model of autonomy.", "authors": "Jurgens V, et al.", "url": "https://doi.org/10.1016/j.acap.2026.103457"},
+    {"chips": [["CME", "slate"]], "text": "<b>POCUS for community pediatricians.</b> A year after a 2-day course plus 4 supervised shifts, 44% of 52 respondents used POCUS weekly. Device access drove ongoing use.", "authors": "Katz-Dana H, et al.", "url": "https://doi.org/10.1016/j.acap.2026.103445"}
+  ],
+  "quick": [
+    {"chips": [["Supervision", "coral"]], "text": "<b>SAFE-DC:</b> a rounds format (Summary, Active issues, Follow-up, Exit, Drugs/devices, Counseling) for supervising discharge plans. Katz S, et al. <i>Acad Med</i> 2026;101(10):1222.", "url": "https://academic.oup.com/academicmedicine/article/101/10/1222/8497584"},
+    {"chips": [["AI", "purple"], ["UME", "slate"]], "text": "<b>GPT-4o tutors:</b> struggling first-year students (87 users vs 206 non-users) closed an exam gap, and failures among users fell from 24.1% to 4.4%. Self-selected users. Sami A, et al. <i>Acad Med</i> 2026;101(10):1265.", "url": "https://academic.oup.com/academicmedicine/article/101/10/1265/8723692"},
+    {"chips": [["GME", "teal"]], "text": "<b>GME Program Scorecard:</b> a 17-metric dashboard built from existing data took 2,920 analyst hours and $1,600 in licenses; 61% of potential users accessed it. <i>JGME</i> Aug 2026.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475772/"},
+    {"chips": [["AI", "purple"]], "text": "<b>LLMs to summarize resident assessment comments.</b> <i>JGME</i> Aug 2026. <i>Title only; the abstract request was rate-limited.</i>", "link_label": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/42602997/"}
+  ],
+  "footer": "Summaries come from abstracts I read (except the one marked title only): NCBI for JGME and <i>Pediatrics</i>, ScienceDirect for <i>Acad Peds</i>, and OUP for <i>Acad Med</i>. Author lists weren&#39;t available for the JGME and <i>Pediatrics</i> items. Full text may need an OHSU login. Please verify before citing."
+}
