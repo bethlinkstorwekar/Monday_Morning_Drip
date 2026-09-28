@@ -44,6 +44,30 @@ a{color:var(--teal)}
 .pill.on{background:var(--teal);color:#fff}
 .pill:hover{box-shadow:0 2px 8px rgba(14,110,115,.25)}
 
+.switch{display:flex;border:2px solid var(--teal);border-radius:14px;overflow:hidden;background:#fff}
+.seg{display:flex;flex-direction:column;justify-content:center;text-decoration:none;color:var(--teal);padding:6px 18px;min-width:150px;line-height:1.2}
+.seg + .seg{border-left:2px solid var(--teal)}
+.seg .t{font-weight:bold;font-size:15px}
+.seg .s{font-size:11.5px;color:var(--muted);margin-top:2px}
+.seg.on{background:var(--teal);color:#fff}.seg.on .s{color:#d6ecea}
+.seg:not(.on):hover{background:var(--mint)}
+
+/* past issues band */
+.past{background:var(--teal);color:#fff}
+.past .w{padding-top:18px;padding-bottom:18px}
+.past-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.past-t{font:bold 20px var(--serif)}
+.past-all{background:var(--gold);color:var(--ink);font-weight:bold;text-decoration:none;padding:9px 18px;border-radius:999px;white-space:nowrap}
+.past-all:hover{filter:brightness(1.05);box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.pcs{display:flex;gap:12px;margin-top:14px;overflow-x:auto;padding-bottom:4px}
+.pc{flex:0 0 250px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.28);border-radius:12px;padding:10px 14px;
+  text-decoration:none;color:#fff;display:flex;flex-direction:column;gap:3px}
+.pc:hover{background:rgba(255,255,255,.18)}
+.pn{font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#ffd98a}
+.ph{font:bold 16px/1.3 var(--serif)}
+.pd{font-size:12px;color:#d6ecea}
+.past-bottom{margin-top:10px}
+
 /* hero */
 .hero{background:var(--cream);border-bottom:4px solid var(--teal)}
 .hero .w{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;padding-top:40px;padding-bottom:40px;align-items:start}
@@ -131,7 +155,9 @@ a{color:var(--teal)}
   .w{padding:0 16px}
   .top .w{flex-wrap:wrap;gap:8px;padding-top:8px;padding-bottom:10px}
   .brand{font-size:19px}.brand small{display:none}
-  .pills{width:100%}.pill{flex:1;text-align:center;padding:8px 10px}
+  .switch{width:100%}.seg{flex:1;min-width:0;padding:6px 10px;text-align:center}
+  .seg .t{font-size:14px}
+  .past-t{font-size:17px}.past-all{padding:7px 14px;font-size:14px}.pc{flex-basis:210px}
   .hero .w{padding-top:26px;padding-bottom:26px}
   .hero h1{font-size:29px}.hero .lede{font-size:16.5px}
   .card{grid-template-columns:minmax(0,1fr)}
@@ -187,15 +213,36 @@ def page(title, body, desc="", depth=0):
 
 def topbar(active, depth):
     up = "../" * depth
-    cur = "pill on" if active == "current" else "pill"
-    arc = "pill on" if active == "archive" else "pill"
+    latest = SITE["latest"]
+    cur = "seg on" if active == "current" else "seg"
+    arc = "seg on" if active == "archive" else "seg"
+    cur_at = ' aria-current="page"' if active == "current" else ""
+    arc_at = ' aria-current="page"' if active == "archive" else ""
     return (f'<header class="top"><div class="w">'
             f'<a class="brand" href="{up}index.html">The Monday Morning <span>Drip</span>'
             f'<small>Pediatric med ed for the busy educator</small></a>'
-            f'<nav class="pills" aria-label="Site">'
-            f'<a class="{cur}" href="{up}index.html">&#9749; Current issue</a>'
-            f'<a class="{arc}" href="{up}archive.html">&#128218; Archive ({SITE["count"]})</a>'
+            f'<nav class="switch" aria-label="Site">'
+            f'<a class="{cur}" href="{up}index.html"{cur_at}>'
+            f'<span class="t">&#9749; Current issue</span><span class="s">Issue {latest["issue"]}</span></a>'
+            f'<a class="{arc}" href="{up}archive.html"{arc_at}>'
+            f'<span class="t">&#128218; Archive</span><span class="s">Browse all {SITE["count"]} issues</span></a>'
             f'</nav></div></header>')
+
+
+def past_band(d, depth, where="top"):
+    """Strip that points readers to earlier issues and the archive."""
+    up = "../" * depth
+    others = [o for o in reversed(SITE["issues"]) if o is not d][:4]
+    cards = "".join(
+        f'<a class="pc" href="{up}issues/{slug(o)}.html"><span class="pn">Issue {o["issue"]}'
+        f'{" &middot; Audio" if o.get("podcast") else ""}</span>'
+        f'<span class="ph">{o["breath_title"]}</span><span class="pd">{esc(o["week_label"])}</span></a>'
+        for o in others)
+    head = "Catch up on past issues" if where == "top" else "Keep reading: more from the archive"
+    return (f'<section class="past past-{where}"><div class="w">'
+            f'<div class="past-head"><div class="past-t">&#128218; {head}</div>'
+            f'<a class="past-all" href="{up}archive.html">See all {SITE["count"]} issues &rarr;</a></div>'
+            + (f'<div class="pcs">{cards}</div>' if cards else "") + '</div></section>')
 
 
 def link_more(url, label="Full text"):
@@ -259,6 +306,7 @@ def render_issue(d, depth, active=None):
         aside.append('<section class="s-news"><div class="sec" style="color:var(--teal)">APPD &amp; GME news</div>'
                      + "".join(items) + "</section>")
 
+    p.append(past_band(d, depth, "top"))
     p.append(f'<div class="w grid"><main>{"".join(main)}</main><aside class="aside">{"".join(aside)}</aside></div>')
 
     # full-width card grids
@@ -282,6 +330,7 @@ def render_issue(d, depth, active=None):
                      f'<div class="tiles quick">{"".join(tiles)}</div></section>')
     if d.get("footer"):
         lower.append(f'<div class="foot"><b style="color:var(--ink)">Sources &amp; caveats:</b> {d["footer"]}</div>')
+    lower.append('</div>' + past_band(d, depth, "bottom") + '<div class="w">')
     lower.append('<div class="sign">The Monday Morning Drip &middot; AI-generated by Claude, not fully reviewed &middot; see you next Monday &#9749;</div>')
     p.append(f'<div class="w">{"".join(lower)}</div>')
     return "".join(p)
@@ -370,7 +419,7 @@ def main():
     if not issues:
         raise SystemExit("no issues found in content/issues")
     base = json.loads((ROOT / "content" / "site.json").read_text())["base_url"]
-    SITE.update(latest=issues[-1], count=len(issues), base=base)
+    SITE.update(latest=issues[-1], count=len(issues), base=base, issues=issues)
     (OUT / "issues").mkdir(parents=True, exist_ok=True)
     (OUT / ".nojekyll").write_text("")
 
