@@ -74,6 +74,11 @@ a{color:var(--teal)}
 .tab:hover{box-shadow:0 2px 6px rgba(14,110,115,.25)}
 .older{margin:14px 24px 0;background:var(--blush);border-radius:8px;padding:10px 14px;font-size:14px}
 @media (max-width:520px){.tabs{padding:12px 16px 0}.older{margin:12px 16px 0}.tab{padding:8px 10px}.tab .t{font-size:15px}}
+.listen{margin-top:20px;background:var(--teal);color:#fff;border-radius:12px;padding:14px 16px}
+.listen .lt{font:bold 18px Georgia,'Times New Roman',serif}
+.listen .ls{font-size:13px;color:#d6ecea;margin:2px 0 10px}
+.listen audio{width:100%;display:block}
+.listen a{color:#fff}
 .ainote{margin-top:14px;border:1px dashed var(--line);border-radius:8px;padding:8px 12px;font-size:12px;color:var(--muted)}
 .sign{text-align:center;font-size:12px;color:var(--muted);padding:0 20px 20px}
 .nav{display:flex;justify-content:space-between;gap:12px;font-size:14px;margin:18px 4px 0}
@@ -156,6 +161,14 @@ def render_issue(d, depth, active=None):
     p.append(masthead(f"Pediatric Med Ed &middot; Issue {d['issue']}",
                       f"&#9749; Freshly brewed every Monday<br>{esc(d['week_label'])} &middot; ~5-min read", depth, active))
     p.append('<main class="body">')
+    if d.get("podcast"):
+        pod = d["podcast"]
+        up = "../" * depth
+        mins = max(1, round(pod["seconds"] / 60))
+        p.append(f'<section class="listen"><div class="lt">&#127911; Listen to this issue</div>'
+                 f'<div class="ls">~{mins}-min audio edition &middot; AI-narrated &middot; '
+                 f'<a href="{up}podcast.xml">Subscribe in a podcast app</a></div>'
+                 f'<audio controls preload="none" src="{up}{esc(pod["file"])}"></audio></section>')
     p.append(f'<section class="breath"><div class="label">THIS WEEK IN ONE BREATH</div>'
              f'<h2>{d["breath_title"]}</h2><p>{d["breath_text"]}</p></section>')
     if d.get("in_this_issue"):
@@ -233,6 +246,38 @@ def rss(issues, base):
             + "".join(items) + "</channel></rss>\n")
 
 
+def podcast_feed(issues, base):
+    items = []
+    for d in reversed(issues):
+        pod = d.get("podcast")
+        if not pod:
+            continue
+        url = f"{base}issues/{slug(d)}.html"
+        s = pod["seconds"]
+        items.append(
+            f"<item><title>Issue {d['issue']}: {esc(html.unescape(d['breath_title']))}</title>"
+            f"<link>{url}</link><guid isPermaLink=\"false\">{base}{pod['file']}</guid>"
+            f"<pubDate>{rfc822(d['date_iso'])}</pubDate>"
+            f"<description>{esc(html.unescape(d['breath_text']))} This episode is AI-generated and may not be fully reviewed; "
+            f"see the written issue for links: {url}</description>"
+            f"<enclosure url=\"{base}{pod['file']}\" length=\"{pod['bytes']}\" type=\"audio/mpeg\"/>"
+            f"<itunes:duration>{s // 60}:{s % 60:02d}</itunes:duration><itunes:episode>{d['issue']}</itunes:episode>"
+            f"<itunes:explicit>false</itunes:explicit></item>")
+    return ('<?xml version="1.0" encoding="UTF-8"?>'
+            '<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"><channel>'
+            f"<title>The Monday Morning Drip</title><link>{base}</link><language>en-us</language>"
+            "<description>Pediatric med ed for the busy educator: a short audio edition of each weekly issue. "
+            "AI-generated and AI-narrated; may not be fully reviewed. Verify with original sources.</description>"
+            "<itunes:author>The Monday Morning Drip</itunes:author>"
+            "<itunes:summary>Pediatric med ed for the busy educator. AI-generated weekly digest.</itunes:summary>"
+            f'<itunes:image href="{base}cover.png"/><image><url>{base}cover.png</url>'
+            f"<title>The Monday Morning Drip</title><link>{base}</link></image>"
+            '<itunes:category text="Education"/><itunes:category text="Health &amp; Fitness">'
+            '<itunes:category text="Medicine"/></itunes:category>'
+            "<itunes:explicit>false</itunes:explicit><itunes:type>episodic</itunes:type>"
+            + "".join(items) + "</channel></rss>\n")
+
+
 def main():
     issues = [json.loads(p.read_text()) for p in sorted(CONTENT.glob("*.json"))]
     issues.sort(key=lambda d: (d["date_iso"], d["issue"]))
@@ -257,7 +302,8 @@ def main():
 
     rows = []
     for d in reversed(issues):
-        rows.append(f'<li><a href="issues/{slug(d)}.html">Issue {d["issue"]}: {d["breath_title"]}</a>'
+        ear = " &#127911;" if d.get("podcast") else ""
+        rows.append(f'<li><a href="issues/{slug(d)}.html">Issue {d["issue"]}: {d["breath_title"]}</a>{ear}'
                     f'<div class="s">{esc(d["week_label"])} &middot; {" &bull; ".join(esc(x) for x in d.get("in_this_issue", []))}</div></li>')
     arch = ('<div class="sheet">' + masthead("Archive", f"{len(issues)} issues so far", 0, "archive")
             + '<main class="body"><div class="sec" style="color:var(--teal)">ALL ISSUES</div><ul class="arch">'
@@ -266,6 +312,7 @@ def main():
 
     base = json.loads((ROOT / "content" / "site.json").read_text())["base_url"]
     (OUT / "feed.xml").write_text(rss(issues, base))
+    (OUT / "podcast.xml").write_text(podcast_feed(issues, base))
     print(f"built {len(issues)} issues; latest = issue {latest['issue']} ({latest['date_iso']})")
 
 
