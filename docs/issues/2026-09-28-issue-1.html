@@ -3,77 +3,129 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Issue 1 - The Monday Morning Drip</title>
 <meta name="description" content="&quot;Ready for what?&quot;">
+<meta property="og:title" content="Issue 1 - The Monday Morning Drip">
+<meta property="og:description" content="&quot;Ready for what?&quot;">
+<meta property="og:image" content="https://bethlinkstorwekar.github.io/Monday_Morning_Drip/cover.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
 <link rel="alternate" type="application/rss+xml" title="The Monday Morning Drip" href="../feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Monday Morning Drip (podcast)" href="../podcast.xml">
 <style>
-:root{--teal:#0e6e73;--coral:#e2574c;--purple:#6b4c9a;--slate:#44525f;--gold:#f4b73f;
---ink:#1d2733;--muted:#5a6776;--line:#d8dee4;--cream:#fff6e0;--blush:#fdecea;--mint:#e3f3f2;
---gray:#f2f4f6;--page:#eef1f4;--card:#ffffff}
+:root{--teal:#0e6e73;--teal-dk:#0a5357;--coral:#e2574c;--purple:#6b4c9a;--slate:#44525f;--gold:#f4b73f;
+--ink:#1d2733;--muted:#5a6776;--line:#dfe4e9;--cream:#fff6e0;--blush:#fdecea;--mint:#e3f3f2;
+--gray:#f2f4f6;--page:#f5f3ee;--card:#ffffff;--serif:Georgia,'Times New Roman',serif}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--page);color:var(--ink);font:16px/1.55 Helvetica,Arial,sans-serif}
 a{color:var(--teal)}
-.wrap{max-width:680px;margin:0 auto;padding:20px 16px 40px}
-.sheet{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}
-.mast{background:var(--cream);border-top:6px solid var(--teal);border-bottom:4px solid var(--teal);padding:26px 26px 20px}
-.kicker{font-size:11px;letter-spacing:1px;color:var(--coral);font-weight:bold;text-transform:uppercase}
-.title{font:bold 34px/1.15 Georgia,'Times New Roman',serif;color:var(--teal);margin:6px 0 0}
-.title a{color:inherit;text-decoration:none}.title span{color:var(--coral)}
-.tag{font:italic 17px Georgia,'Times New Roman',serif;margin-top:4px}
-.meta{font-size:14px;color:var(--muted);margin-top:8px}
-.body{padding:6px 24px 24px}
-.breath{margin-top:20px;background:var(--cream);border-left:5px solid var(--gold);padding:14px 16px}
-.label{font-size:11px;font-weight:bold;letter-spacing:1.5px;color:var(--muted)}
-.breath h2{font:bold 21px Georgia,'Times New Roman',serif;margin:6px 0}
-.breath p{margin:0;line-height:1.6}
-.inissue{margin-top:12px;font-size:13px;color:var(--muted)}.inissue b{color:var(--ink)}
-.sec{display:flex;align-items:center;gap:10px;margin:28px 0 12px;font-size:12px;font-weight:bold;letter-spacing:1.5px;white-space:nowrap}
-.sec::after{content:"";flex:1;border-bottom:2px solid currentColor}
-.cal{background:var(--blush);border-radius:10px;padding:16px 16px 4px}
-.ev{display:flex;gap:12px;align-items:center;padding-bottom:12px}
-.date{flex:0 0 56px;border:2px solid var(--coral);border-radius:8px;overflow:hidden;text-align:center}
-.date .m{background:var(--coral);color:#fff;font-size:11px;font-weight:bold;letter-spacing:1px;padding:3px 0}
-.date .d{font:bold 22px Georgia,serif;padding:3px 0 4px}
-.more{font-weight:bold;text-decoration:none;white-space:nowrap}
-.card{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:16px}
-.card .bar{height:5px}
-.card .in{padding:14px 18px 16px}
-.rank{font:bold 26px/1 Georgia,serif;margin-right:10px;vertical-align:middle}
-.chip{display:inline-block;font-size:10px;font-weight:bold;letter-spacing:.5px;padding:2px 7px;border-radius:10px;margin-right:4px;text-transform:uppercase;vertical-align:middle}
-.card h3{font:bold 20px/1.3 Georgia,'Times New Roman',serif;margin:10px 0}
-.card ul{margin:0 0 8px;padding-left:20px}.card li{margin-bottom:8px}.card li::marker{color:var(--m);font-weight:bold}
-.tip{background:var(--gray);border-radius:8px;padding:10px 12px;font-size:14px;margin:4px 0 12px}
-.tip b{color:var(--coral)}
-.cite{font-size:12px;color:var(--muted)}
-.btn{display:inline-block;font-size:13px;font-weight:bold;color:#fff;text-decoration:none;padding:7px 14px;border-radius:16px;margin:10px 6px 0 0}
-.news{background:var(--mint);border-radius:10px;padding:14px 16px;margin-bottom:10px}
-.ap{border-left:4px solid var(--line);padding:2px 0 2px 14px;margin-bottom:14px}
-.ap .au{color:var(--muted);font-size:13px}
-.qh{padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
-.foot{background:var(--gray);border-radius:10px;padding:14px 16px;font-size:12px;color:var(--muted);margin-top:22px}
-.tabs{display:flex;gap:8px;padding:14px 24px 0;background:var(--card)}
-.tab{flex:1;display:block;text-decoration:none;border:2px solid var(--teal);border-radius:10px;padding:10px 14px;color:var(--teal)}
-.tab .t{display:block;font:bold 17px Georgia,'Times New Roman',serif}
-.tab .sub{display:block;font-size:12px;color:var(--muted);margin-top:2px}
-.tab.on{background:var(--teal);color:#fff}.tab.on .sub{color:#d6ecea}
-.tab:hover{box-shadow:0 2px 6px rgba(14,110,115,.25)}
-.older{margin:14px 24px 0;background:var(--blush);border-radius:8px;padding:10px 14px;font-size:14px}
-@media (max-width:520px){.tabs{padding:12px 16px 0}.older{margin:12px 16px 0}.tab{padding:8px 10px}.tab .t{font-size:15px}}
-.listen{margin-top:20px;background:var(--teal);color:#fff;border-radius:12px;padding:14px 16px}
-.listen .lt{font:bold 18px Georgia,'Times New Roman',serif}
-.listen .ls{font-size:13px;color:#d6ecea;margin:2px 0 10px}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* sticky top bar */
+.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line)}
+.top .w{display:flex;align-items:center;gap:16px;min-height:62px}
+.brand{font:bold 22px/1.1 var(--serif);color:var(--teal);text-decoration:none;flex:1}
+.brand span{color:var(--coral)}
+.brand small{display:block;font:italic 13px var(--serif);color:var(--muted);font-weight:normal}
+.pills{display:flex;gap:8px}
+.pill{text-decoration:none;font-weight:bold;font-size:14px;padding:9px 16px;border-radius:999px;
+  border:2px solid var(--teal);color:var(--teal);white-space:nowrap}
+.pill.on{background:var(--teal);color:#fff}
+.pill:hover{box-shadow:0 2px 8px rgba(14,110,115,.25)}
+
+/* hero */
+.hero{background:var(--cream);border-bottom:4px solid var(--teal)}
+.hero .w{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;padding-top:40px;padding-bottom:40px;align-items:start}
+.kicker{font-size:12px;letter-spacing:1.5px;color:var(--coral);font-weight:bold;text-transform:uppercase}
+.hero h1{font:bold 46px/1.08 var(--serif);margin:10px 0 14px;color:var(--ink)}
+.hero .lede{font-size:18px;line-height:1.6;margin:0}
+.inissue{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.inissue b{font-size:12px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-right:2px}
+.inissue a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px;
+  text-decoration:none;color:var(--ink)}
+.inissue a:hover{border-color:var(--teal);color:var(--teal)}
+.side-hero{display:flex;flex-direction:column;gap:14px}
+.listen{background:var(--teal);color:#fff;border-radius:16px;padding:18px 18px 16px;box-shadow:0 6px 20px rgba(14,110,115,.25)}
+.listen .lt{font:bold 20px var(--serif)}
+.listen .ls{font-size:13px;color:#d6ecea;margin:2px 0 12px}
 .listen audio{width:100%;display:block}
 .listen a{color:#fff}
-.ainote{margin-top:14px;border:1px dashed var(--line);border-radius:8px;padding:8px 12px;font-size:12px;color:var(--muted)}
-.sign{text-align:center;font-size:12px;color:var(--muted);padding:0 20px 20px}
-.nav{display:flex;justify-content:space-between;gap:12px;font-size:14px;margin:18px 4px 0}
-.arch{list-style:none;margin:0;padding:0}
-.arch li{border-bottom:1px solid var(--line);padding:14px 0}
-.arch a{font:bold 19px Georgia,serif;text-decoration:none}
-.arch .s{color:var(--muted);font-size:14px;margin-top:4px}
-@media (max-width:520px){.title{font-size:28px}.mast{padding:22px 18px 16px}.body{padding:4px 16px 20px}}
+.meta{font-size:14px;color:var(--muted)}
+.ainote{border:1px dashed #d9cfae;border-radius:10px;padding:10px 12px;font-size:12.5px;color:var(--muted);background:rgba(255,255,255,.5)}
+.older{background:var(--blush);border-radius:10px;padding:10px 14px;font-size:14px}
+
+/* body grid */
+.grid{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:40px;padding-top:36px;padding-bottom:20px}
+.aside{position:sticky;top:84px;align-self:start;display:flex;flex-direction:column;gap:22px}
+.sec{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:12px;font-weight:bold;letter-spacing:1.5px;white-space:nowrap;text-transform:uppercase}
+.sec::after{content:"";flex:1;border-bottom:2px solid currentColor;opacity:.8}
+.block{margin-bottom:36px}
+.more{font-weight:bold;text-decoration:none;white-space:nowrap}
+.chip{display:inline-block;font-size:10.5px;font-weight:bold;letter-spacing:.5px;padding:3px 8px;border-radius:999px;margin-right:4px;text-transform:uppercase;vertical-align:middle}
+
+/* top reads */
+.card{background:var(--card);border-radius:16px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 6px 18px rgba(0,0,0,.04);
+  display:grid;grid-template-columns:64px minmax(0,1fr);overflow:hidden;scroll-margin-top:84px}
+.card .num{background:var(--c);color:#fff;font:bold 34px var(--serif);display:flex;justify-content:center;padding-top:18px}
+.card .in{padding:18px 22px 20px}
+.card h3{font:bold 23px/1.25 var(--serif);margin:10px 0 12px}
+.card ul{margin:0 0 12px;padding-left:20px}.card li{margin-bottom:8px}.card li::marker{color:var(--c);font-weight:bold}
+.tip{background:var(--gray);border-left:4px solid var(--c);border-radius:0 10px 10px 0;padding:10px 14px;font-size:15px;margin:4px 0 12px}
+.tip b{color:var(--c)}
+.cite{font-size:12.5px;color:var(--muted)}
+.btn{display:inline-block;font-size:13px;font-weight:bold;color:#fff;background:var(--c);text-decoration:none;padding:8px 16px;border-radius:999px;margin:12px 6px 0 0}
+.btn:hover{filter:brightness(1.1)}
+
+/* sidebar */
+.cal{background:var(--card);border-radius:16px;padding:18px 18px 6px;box-shadow:0 1px 3px rgba(0,0,0,.06);border-top:5px solid var(--coral)}
+.ev{display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;font-size:14.5px;line-height:1.45}
+.date{flex:0 0 50px;border:2px solid var(--coral);border-radius:8px;overflow:hidden;text-align:center;background:#fff}
+.date .m{background:var(--coral);color:#fff;font-size:10px;font-weight:bold;letter-spacing:1px;padding:2px 0}
+.date .d{font:bold 20px var(--serif);padding:2px 0 3px}
+.news{background:var(--mint);border-radius:14px;padding:16px 18px;margin-bottom:12px;font-size:14.5px}
+
+/* card grids */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.tile{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:0 1px 3px rgba(0,0,0,.06);font-size:15px;border-top:4px solid var(--line)}
+.tile .chips{margin-bottom:8px}
+.tile .au{color:var(--muted);font-size:13px}
+.tiles.quick .tile{font-size:14.5px;background:transparent;box-shadow:none;border:1px solid var(--line);border-top:4px solid var(--line)}
+
+.foot{background:var(--card);border-radius:14px;padding:16px 18px;font-size:13px;color:var(--muted);margin:10px 0 18px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.sign{text-align:center;font-size:13px;color:var(--muted);padding:6px 0 18px}
+.nav{display:flex;justify-content:space-between;gap:12px;font-size:15px;padding-bottom:40px}
+.nav a{font-weight:bold;text-decoration:none}
+
+/* archive */
+.arch-hero h1{font-size:40px}
+.issues{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;padding:36px 0 50px}
+.issue{display:block;background:var(--card);border-radius:16px;padding:20px 22px;text-decoration:none;color:var(--ink);
+  box-shadow:0 1px 3px rgba(0,0,0,.06),0 6px 18px rgba(0,0,0,.04);border-top:5px solid var(--teal);transition:transform .15s}
+.issue:hover{transform:translateY(-2px)}
+.issue .n{font-size:12px;font-weight:bold;letter-spacing:1.5px;color:var(--coral);text-transform:uppercase}
+.issue h2{font:bold 22px/1.25 var(--serif);margin:6px 0 8px;color:var(--teal)}
+.issue p{margin:0 0 10px;font-size:14.5px;color:var(--muted)}
+.issue .tags{font-size:13px;color:var(--ink)}
+.badges{margin-top:8px;min-height:20px}
+.badge{display:inline-block;background:var(--teal);color:#fff;border-radius:999px;font-size:11px;font-weight:bold;padding:2px 9px;margin-right:6px}
+.issue.latest{border-top-color:var(--coral)}
+
+@media (max-width:900px){
+  .hero .w,.grid{grid-template-columns:minmax(0,1fr);gap:24px}
+  .aside{display:contents}
+  .aside .s-cal{order:-1}.aside .s-news{order:1}
+  .hero h1{font-size:34px}
+}
+@media (max-width:560px){
+  .w{padding:0 16px}
+  .top .w{flex-wrap:wrap;gap:8px;padding-top:8px;padding-bottom:10px}
+  .brand{font-size:19px}.brand small{display:none}
+  .pills{width:100%}.pill{flex:1;text-align:center;padding:8px 10px}
+  .hero .w{padding-top:26px;padding-bottom:26px}
+  .hero h1{font-size:29px}.hero .lede{font-size:16.5px}
+  .card{grid-template-columns:minmax(0,1fr)}
+  .card .num{justify-content:flex-start;padding:8px 18px;font-size:22px}
+  .card .in{padding:14px 16px 16px}.card h3{font-size:20px}
+  .tiles,.issues{grid-template-columns:minmax(0,1fr)}
+}
 </style></head>
-<body><div class="wrap"><div class="sheet"><nav class="tabs" aria-label="Site"><a class="tab" href="../index.html"><span class="t">&#9749; Current issue</span><span class="sub">Issue 2 &middot; Week of Sept 28, 2026</span></a><a class="tab" href="../archive.html"><span class="t">&#128218; Archive</span><span class="sub">All 2 issues</span></a></nav><div class="older">You&#39;re reading an earlier issue. <a class="more" href="../index.html">Go to the current issue &rsaquo;</a></div><header class="mast" style="margin-top:14px"><div class="kicker">Pediatric Med Ed &middot; Issue 1</div>
-<div class="title"><a href="../index.html">The Monday Morning <span>Drip</span></a></div>
-<div class="tag">Pediatric med ed for the busy educator</div>
-<div class="meta">&#9749; Freshly brewed every Monday<br>Week of Sept 28, 2026 &middot; ~5-min read</div>
-<div class="ainote"><b>Heads up:</b> this digest is AI-generated (compiled by Claude) and may not have been fully checked by me. Summaries can contain errors, so please verify with the original source before citing or acting on anything.</div></header><main class="body"><section class="breath"><div class="label">THIS WEEK IN ONE BREATH</div><h2>&quot;Ready for what?&quot;</h2><p>Pediatric PDs feel a heavy moral duty to call graduates practice-ready but define readiness differently, just as the ABP moves to EPA-based attestations in 2028. On the way in, pediatrics-specific signals (the NBME shelf, clerkship honors, GHHS) modestly predict early Milestones. Once residents arrive, the hidden struggles are about adapting to the workplace, and <i>Academic Pediatrics</i> shows how help-seeking and autonomy develop along the way.</p></section><div class="inissue"><b>In this issue:</b> Practice readiness &bull; What predicts intern performance &bull; What PDs wish they knew at handover</div><div class="sec" style="color:var(--coral)">MARK YOUR CALENDAR</div><div class="cal"><div class="ev"><div class="date"><div class="m">OCT</div><div class="d">5</div></div><div><b>Earliest peds interview invites.</b> Virtual-only interviews; no in-person visits before Feb 2. <a class="more" href="https://www.appd.org/wp-content/uploads/2026/06/2026-27-Pediatrics-Residency-Recruitment-Recommendations-.pdf">APPD &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">OCT</div><div class="d">22</div></div><div><b>Comments due on the ACGME Common Program Requirements.</b> <a class="more" href="https://www.acgme.org/globalassets/pfassets/reviewandcomment/2026/cpr_impact_09082026.pdf">Impact statement &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">NOV</div><div class="d">2</div></div><div><b>APPD Spring 2027 Enhanced Learning Session proposals due.</b> Indianapolis, with MPPDA. <a class="more" href="https://www.appd.org/meetings-education/spring/2027-2/">APPD &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">DEC</div><div class="d">1</div></div><div><b>APPD med ed abstracts due.</b> Submission opens the week of Oct 12.</div></div></div><div class="sec" style="color:var(--teal)">TOP READS</div><article class="card"><div class="bar" style="background:#0e6e73"></div><div class="in"><span class="rank" style="color:#0e6e73">1</span><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Assessment</span><h3>&quot;Readiness for what?&quot; How pediatric PDs decide a graduate is practice-ready</h3><ul style="--m:#0e6e73"><li>In a grounded theory study, 15 pediatric PDs described an &quot;immense moral responsibility&quot; for the practice-readiness call.</li><li>Definitions split three ways: ready as a <b>general pediatrician regardless of career plans</b>, ready for the <b>specific setting</b> the resident is headed to, or ready for <b>fellowship</b>.</li></ul><div class="tip"><b>Why it matters:</b> the ABP moves to EPA-based readiness attestations in 2028. Programs and CCCs need a shared answer to &quot;ready for what?&quot; before then.</div><div class="cite">&quot;Program Directors&#39; Varied Conceptions of Practice Readiness.&quot; <i>Pediatrics</i>. Online Sept 2, 2026. PMID 42680169. doi:10.1542/peds.2026-077198</div><a class="btn" style="background:#0e6e73" href="https://doi.org/10.1542/peds.2026-077198">Full text &rsaquo;</a></div></article><article class="card"><div class="bar" style="background:#e2574c"></div><div class="in"><span class="rank" style="color:#e2574c">2</span><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Selection</span><h3>Screening season: what actually predicts pediatric intern performance?</h3><ul style="--m:#e2574c"><li><b>ERAS metrics</b> (518 residents, 10 programs): <b>GHHS</b> (B=0.15, P=.009) and <b>Step 2 CK</b> (B=0.06, P=.007) were associated with overall Milestone performance.</li><li><b>Medical school metrics</b> (414 graduates, 5 sites; Milestones for 228): the <b>NBME Pediatrics shelf</b> was the only factor tied to all 6 competencies, and <b>peds clerkship honors</b> predicted Professionalism and Patient Care.</li></ul><div class="tip"><b>Synthesis:</b> effects are small, and Milestone data were missing for about 45% of graduates in the second study. Use these as nudges in holistic review, not cutoffs.</div><div class="cite"><i>J Grad Med Educ</i>. Aug 2026. doi:10.4300/jgme-d-25-00854.1 and doi:10.4300/jgme-d-25-01139.1</div><a class="btn" style="background:#e2574c" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13475749/">ERAS metrics &rsaquo;</a><a class="btn" style="background:#e2574c" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13475741/">Med school metrics &rsaquo;</a></div></article><article class="card"><div class="bar" style="background:#0e6e73"></div><div class="in"><span class="rank" style="color:#0e6e73">3</span><span class="chip" style="color:#0e6e73;background:#0e6e731a">GME</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Transitions</span><h3>The &quot;unknowable&quot; intern: what PDs wish they&#39;d known at handover</h3><ul style="--m:#0e6e73"><li>19 PDs across FM, IM, OB, <b>peds</b>, and surgery shared 38 stories of residents who struggled. The surprises were usually <b>workplace adaptation</b>, not knowledge.</li><li>Three kinds of information gaps: <b>known but ambiguous</b>, <b>knowable but absent</b>, and <b>currently unknowable</b> until the resident arrives.</li></ul><div class="tip"><b>Try this:</b> add adaptation signals (asking for help, workflow, team integration) to your early-intern check-ins.</div><div class="cite">Bowen JL, Cooper DM, Larson RW, et al. <i>Acad Med</i>. 2026;101(10):1289-96. doi:10.1093/acamed/wvag120</div><a class="btn" style="background:#0e6e73" href="https://academic.oup.com/academicmedicine/article/101/10/1289/8651729">Full text &rsaquo;</a></div></article><div class="sec" style="color:var(--teal)">APPD &amp; GME NEWS</div><div class="news"><b>The ACGME proposes a 43% cut to its Common Program Requirements.</b> The GMEC would approve PD appointments, and the 3-year PD experience minimum would go. New well-being rules: safe options for residents too fatigued to drive home, protected lactation time, and schedule changes during pregnancy. Target date: July 2028. <a class="more" href="https://www.acgme.org/newsroom/e-communication/2026/september-8-2026/">ACGME &rsaquo;</a></div><div class="sec" style="color:var(--slate)">FROM ACADEMIC PEDIATRICS</div><div class="ap"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span><br><b>&quot;Do I Need Help?&quot; Interns on night float.</b> In 19 stories from 12 interns, help-seeking fell into three patterns: <i>need help now</i>, <i>do I need help?</i>, and <i>should wait</i>. Acuity and uncertainty sped up calls; not wanting to bother the supervisor slowed them. <span class="au">Links Torwekar B, et al.</span> <a class="more" href="https://doi.org/10.1016/j.acap.2026.103448">Full text &rsaquo;</a></div><div class="ap"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span><br><b>Autonomy grows up.</b> 14 PHM fellows followed for 3 years into attending practice moved from &quot;complete independence&quot; to a collaborative model of autonomy. <span class="au">Jurgens V, et al.</span> <a class="more" href="https://doi.org/10.1016/j.acap.2026.103457">Full text &rsaquo;</a></div><div class="ap"><span class="chip" style="color:#44525f;background:#44525f1a">CME</span><br><b>POCUS for community pediatricians.</b> A year after a 2-day course plus 4 supervised shifts, 44% of 52 respondents used POCUS weekly. Device access drove ongoing use. <span class="au">Katz-Dana H, et al.</span> <a class="more" href="https://doi.org/10.1016/j.acap.2026.103445">Full text &rsaquo;</a></div><div class="sec" style="color:var(--slate)">QUICK HITS</div><div class="qh"><span class="chip" style="color:#e2574c;background:#e2574c1a">Supervision</span><br><b>SAFE-DC:</b> a rounds format (Summary, Active issues, Follow-up, Exit, Drugs/devices, Counseling) for supervising discharge plans. Katz S, et al. <i>Acad Med</i> 2026;101(10):1222. <a class="more" href="https://academic.oup.com/academicmedicine/article/101/10/1222/8497584">Full text &rsaquo;</a></div><div class="qh"><span class="chip" style="color:#6b4c9a;background:#6b4c9a1a">AI</span><span class="chip" style="color:#44525f;background:#44525f1a">UME</span><br><b>GPT-4o tutors:</b> struggling first-year students (87 users vs 206 non-users) closed an exam gap, and failures among users fell from 24.1% to 4.4%. Self-selected users. Sami A, et al. <i>Acad Med</i> 2026;101(10):1265. <a class="more" href="https://academic.oup.com/academicmedicine/article/101/10/1265/8723692">Full text &rsaquo;</a></div><div class="qh"><span class="chip" style="color:#0e6e73;background:#0e6e731a">GME</span><br><b>GME Program Scorecard:</b> a 17-metric dashboard built from existing data took 2,920 analyst hours and $1,600 in licenses; 61% of potential users accessed it. <i>JGME</i> Aug 2026. <a class="more" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13475772/">Full text &rsaquo;</a></div><div class="qh"><span class="chip" style="color:#6b4c9a;background:#6b4c9a1a">AI</span><br><b>LLMs to summarize resident assessment comments.</b> <i>JGME</i> Aug 2026. <i>Title only; the abstract request was rate-limited.</i> <a class="more" href="https://pubmed.ncbi.nlm.nih.gov/42602997/">PubMed &rsaquo;</a></div><div class="foot"><b style="color:var(--ink)">Sources &amp; caveats:</b> Summaries come from abstracts I read (except the one marked title only): NCBI for JGME and <i>Pediatrics</i>, ScienceDirect for <i>Acad Peds</i>, and OUP for <i>Acad Med</i>. Author lists weren&#39;t available for the JGME and <i>Pediatrics</i> items. Full text may need an institutional login. Please verify before citing.</div></main><div class="sign">The Monday Morning Drip &middot; AI-generated by Claude, not fully reviewed &middot; see you next Monday &#9749;</div></div><nav class="nav"><span></span><a href="../archive.html">All issues</a><a href="../issues/2026-09-28-issue-2.html">Issue 2 &rsaquo;</a></nav></div></body></html>
+<body><header class="top"><div class="w"><a class="brand" href="../index.html">The Monday Morning <span>Drip</span><small>Pediatric med ed for the busy educator</small></a><nav class="pills" aria-label="Site"><a class="pill" href="../index.html">&#9749; Current issue</a><a class="pill" href="../archive.html">&#128218; Archive (2)</a></nav></div></header><section class="hero"><div class="w"><div><div class="kicker">Issue 1 &middot; Week of Sept 28, 2026</div><h1>&quot;Ready for what?&quot;</h1><p class="lede">Pediatric PDs feel a heavy moral duty to call graduates practice-ready but define readiness differently, just as the ABP moves to EPA-based attestations in 2028. On the way in, pediatrics-specific signals (the NBME shelf, clerkship honors, GHHS) modestly predict early Milestones. Once residents arrive, the hidden struggles are about adapting to the workplace, and <i>Academic Pediatrics</i> shows how help-seeking and autonomy develop along the way.</p><div class="inissue"><b>In this issue</b><a href="#read-1">Practice readiness</a><a href="#read-2">What predicts intern performance</a><a href="#read-3">What PDs wish they knew at handover</a></div></div><div class="side-hero"><div class="older">You&#39;re reading an earlier issue. <a class="more" href="../index.html">Go to the current issue &rsaquo;</a></div><section class="listen"><div class="lt">&#127911; Listen to this issue</div><div class="ls">~6-min audio edition &middot; AI-narrated &middot; <a href="../podcast.xml">Subscribe</a></div><audio controls preload="none" src="../audio/2026-09-28-issue-1.mp3"></audio></section><div class="meta">&#9749; Freshly brewed every Monday &middot; ~5-min read</div><div class="ainote"><b>Heads up:</b> this digest is AI-generated (compiled by Claude) and may not have been fully checked by me. Summaries can contain errors, so please verify with the original source before citing or acting on anything.</div></div></div></section><div class="w grid"><main><div class="sec" style="color:var(--teal)">Top reads</div><article class="card" id="read-1" style="--c:#0e6e73"><div class="num">1</div><div class="in"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Assessment</span><h3>&quot;Readiness for what?&quot; How pediatric PDs decide a graduate is practice-ready</h3><ul><li>In a grounded theory study, 15 pediatric PDs described an &quot;immense moral responsibility&quot; for the practice-readiness call.</li><li>Definitions split three ways: ready as a <b>general pediatrician regardless of career plans</b>, ready for the <b>specific setting</b> the resident is headed to, or ready for <b>fellowship</b>.</li></ul><div class="tip"><b>Why it matters:</b> the ABP moves to EPA-based readiness attestations in 2028. Programs and CCCs need a shared answer to &quot;ready for what?&quot; before then.</div><div class="cite">&quot;Program Directors&#39; Varied Conceptions of Practice Readiness.&quot; <i>Pediatrics</i>. Online Sept 2, 2026. PMID 42680169. doi:10.1542/peds.2026-077198</div><a class="btn" href="https://doi.org/10.1542/peds.2026-077198">Full text &rsaquo;</a></div></article><article class="card" id="read-2" style="--c:#e2574c"><div class="num">2</div><div class="in"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Selection</span><h3>Screening season: what actually predicts pediatric intern performance?</h3><ul><li><b>ERAS metrics</b> (518 residents, 10 programs): <b>GHHS</b> (B=0.15, P=.009) and <b>Step 2 CK</b> (B=0.06, P=.007) were associated with overall Milestone performance.</li><li><b>Medical school metrics</b> (414 graduates, 5 sites; Milestones for 228): the <b>NBME Pediatrics shelf</b> was the only factor tied to all 6 competencies, and <b>peds clerkship honors</b> predicted Professionalism and Patient Care.</li></ul><div class="tip"><b>Synthesis:</b> effects are small, and Milestone data were missing for about 45% of graduates in the second study. Use these as nudges in holistic review, not cutoffs.</div><div class="cite"><i>J Grad Med Educ</i>. Aug 2026. doi:10.4300/jgme-d-25-00854.1 and doi:10.4300/jgme-d-25-01139.1</div><a class="btn" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13475749/">ERAS metrics &rsaquo;</a><a class="btn" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13475741/">Med school metrics &rsaquo;</a></div></article><article class="card" id="read-3" style="--c:#0e6e73"><div class="num">3</div><div class="in"><span class="chip" style="color:#0e6e73;background:#0e6e731a">GME</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Transitions</span><h3>The &quot;unknowable&quot; intern: what PDs wish they&#39;d known at handover</h3><ul><li>19 PDs across FM, IM, OB, <b>peds</b>, and surgery shared 38 stories of residents who struggled. The surprises were usually <b>workplace adaptation</b>, not knowledge.</li><li>Three kinds of information gaps: <b>known but ambiguous</b>, <b>knowable but absent</b>, and <b>currently unknowable</b> until the resident arrives.</li></ul><div class="tip"><b>Try this:</b> add adaptation signals (asking for help, workflow, team integration) to your early-intern check-ins.</div><div class="cite">Bowen JL, Cooper DM, Larson RW, et al. <i>Acad Med</i>. 2026;101(10):1289-96. doi:10.1093/acamed/wvag120</div><a class="btn" href="https://academic.oup.com/academicmedicine/article/101/10/1289/8651729">Full text &rsaquo;</a></div></article></main><aside class="aside"><section class="s-cal"><div class="sec" style="color:var(--coral)">Mark your calendar</div><div class="cal"><div class="ev"><div class="date"><div class="m">OCT</div><div class="d">5</div></div><div><b>Earliest peds interview invites.</b> Virtual-only interviews; no in-person visits before Feb 2. <a class="more" href="https://www.appd.org/wp-content/uploads/2026/06/2026-27-Pediatrics-Residency-Recruitment-Recommendations-.pdf">APPD &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">OCT</div><div class="d">22</div></div><div><b>Comments due on the ACGME Common Program Requirements.</b> <a class="more" href="https://www.acgme.org/globalassets/pfassets/reviewandcomment/2026/cpr_impact_09082026.pdf">Impact statement &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">NOV</div><div class="d">2</div></div><div><b>APPD Spring 2027 Enhanced Learning Session proposals due.</b> Indianapolis, with MPPDA. <a class="more" href="https://www.appd.org/meetings-education/spring/2027-2/">APPD &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">DEC</div><div class="d">1</div></div><div><b>APPD med ed abstracts due.</b> Submission opens the week of Oct 12.</div></div></div></section><section class="s-news"><div class="sec" style="color:var(--teal)">APPD &amp; GME news</div><div class="news"><b>The ACGME proposes a 43% cut to its Common Program Requirements.</b> The GMEC would approve PD appointments, and the 3-year PD experience minimum would go. New well-being rules: safe options for residents too fatigued to drive home, protected lactation time, and schedule changes during pregnancy. Target date: July 2028. <a class="more" href="https://www.acgme.org/newsroom/e-communication/2026/september-8-2026/">ACGME &rsaquo;</a></div></section></aside></div><div class="w"><section class="block"><div class="sec" style="color:var(--slate)">From Academic Pediatrics</div><div class="tiles"><div class="tile" style="border-top-color:#0e6e73"><div class="chips"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span></div><b>&quot;Do I Need Help?&quot; Interns on night float.</b> In 19 stories from 12 interns, help-seeking fell into three patterns: <i>need help now</i>, <i>do I need help?</i>, and <i>should wait</i>. Acuity and uncertainty sped up calls; not wanting to bother the supervisor slowed them. <span class="au">Links Torwekar B, et al.</span> <a class="more" href="https://doi.org/10.1016/j.acap.2026.103448">Full text &rsaquo;</a></div><div class="tile" style="border-top-color:#0e6e73"><div class="chips"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Peds GME</span></div><b>Autonomy grows up.</b> 14 PHM fellows followed for 3 years into attending practice moved from &quot;complete independence&quot; to a collaborative model of autonomy. <span class="au">Jurgens V, et al.</span> <a class="more" href="https://doi.org/10.1016/j.acap.2026.103457">Full text &rsaquo;</a></div><div class="tile" style="border-top-color:#44525f"><div class="chips"><span class="chip" style="color:#44525f;background:#44525f1a">CME</span></div><b>POCUS for community pediatricians.</b> A year after a 2-day course plus 4 supervised shifts, 44% of 52 respondents used POCUS weekly. Device access drove ongoing use. <span class="au">Katz-Dana H, et al.</span> <a class="more" href="https://doi.org/10.1016/j.acap.2026.103445">Full text &rsaquo;</a></div></div></section><section class="block"><div class="sec" style="color:var(--slate)">Quick hits</div><div class="tiles quick"><div class="tile" style="border-top-color:#e2574c"><div class="chips"><span class="chip" style="color:#e2574c;background:#e2574c1a">Supervision</span></div><b>SAFE-DC:</b> a rounds format (Summary, Active issues, Follow-up, Exit, Drugs/devices, Counseling) for supervising discharge plans. Katz S, et al. <i>Acad Med</i> 2026;101(10):1222. <a class="more" href="https://academic.oup.com/academicmedicine/article/101/10/1222/8497584">Full text &rsaquo;</a></div><div class="tile" style="border-top-color:#6b4c9a"><div class="chips"><span class="chip" style="color:#6b4c9a;background:#6b4c9a1a">AI</span><span class="chip" style="color:#44525f;background:#44525f1a">UME</span></div><b>GPT-4o tutors:</b> struggling first-year students (87 users vs 206 non-users) closed an exam gap, and failures among users fell from 24.1% to 4.4%. Self-selected users. Sami A, et al. <i>Acad Med</i> 2026;101(10):1265. <a class="more" href="https://academic.oup.com/academicmedicine/article/101/10/1265/8723692">Full text &rsaquo;</a></div><div class="tile" style="border-top-color:#0e6e73"><div class="chips"><span class="chip" style="color:#0e6e73;background:#0e6e731a">GME</span></div><b>GME Program Scorecard:</b> a 17-metric dashboard built from existing data took 2,920 analyst hours and $1,600 in licenses; 61% of potential users accessed it. <i>JGME</i> Aug 2026. <a class="more" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13475772/">Full text &rsaquo;</a></div><div class="tile" style="border-top-color:#6b4c9a"><div class="chips"><span class="chip" style="color:#6b4c9a;background:#6b4c9a1a">AI</span></div><b>LLMs to summarize resident assessment comments.</b> <i>JGME</i> Aug 2026. <i>Title only; the abstract request was rate-limited.</i> <a class="more" href="https://pubmed.ncbi.nlm.nih.gov/42602997/">PubMed &rsaquo;</a></div></div></section><div class="foot"><b style="color:var(--ink)">Sources &amp; caveats:</b> Summaries come from abstracts I read (except the one marked title only): NCBI for JGME and <i>Pediatrics</i>, ScienceDirect for <i>Acad Peds</i>, and OUP for <i>Acad Med</i>. Author lists weren&#39;t available for the JGME and <i>Pediatrics</i> items. Full text may need an institutional login. Please verify before citing.</div><div class="sign">The Monday Morning Drip &middot; AI-generated by Claude, not fully reviewed &middot; see you next Monday &#9749;</div></div><div class="w"><nav class="nav"><span></span><a href="../archive.html">All issues</a><a href="../issues/2026-09-28-issue-2.html">Issue 2 &rsaquo;</a></nav></div></body></html>
