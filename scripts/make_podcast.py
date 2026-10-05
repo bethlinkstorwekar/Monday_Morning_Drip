@@ -34,6 +34,7 @@ SAY = {
     "ACGME": "A-C-G-M-E", "APPD": "A-P-P-D", "APA": "A-P-A",
     "PAS": "P.A.S", "AAMC": "A-A-M-C", "NRMP": "N-R-M-P", "ABP": "A-B-P",
     "UME": "U-M-E", "JGME": "J-G-M-E", "MPPDA": "M-P-P-D-A", "DLLs": "D L L's",
+    "ILP": "I-L-P", "TRACERs": "Tracers",
 }
 
 

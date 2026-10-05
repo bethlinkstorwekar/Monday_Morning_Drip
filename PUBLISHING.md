@@ -20,6 +20,10 @@ https://bethlinkstorwekar.github.io/Monday_Morning_Drip/
    an OHSU login") with a generic phrase ("an institutional login"). Keep
    author names that are part of a normal citation. The AI-generated
    disclaimer is added by the build script; don't remove it.
+   **Coffee Break with Beth** (her own signed column) goes in `coffee`, copied
+   word for word except that OHSU becomes a generic phrase ("my institution").
+   Skip email-only blocks: the podcast promo box and "PDF is attached" lines.
+   In the episode, introduce it as Beth's own words read by the AI narrator.
 4. **Podcast.** Write `content/podcast/<YYYY-MM-DD>-issue-<N>.txt`, a spoken
    script of about 4-6 minutes (use the existing scripts as the model):
    - Use only what the issue says; never add findings, numbers or authors.
@@ -46,6 +50,7 @@ https://bethlinkstorwekar.github.io/Monday_Morning_Drip/
 | `issue`, `date_iso`, `week_label` | issue number, Monday's date, "Week of ..." label |
 | `breath_title`, `breath_text` | "This week in one breath" |
 | `in_this_issue` | the short labels |
+| `coffee` | optional: `title`, `note`, `paragraphs`, `sign` (Beth's own column) |
 | `calendar[]` | `mon`, `day`, `text`, optional `link_label` + `url` |
 | `top[]` | `color`, `chips` ([label, color] pairs), `headline`, `bullets`, `tip_label`, `tip`, `citation`, `links` |
 | `news[]` | `text`, `links` |

@@ -111,6 +111,14 @@ a{color:var(--teal)}
 .btn{display:inline-block;font-size:13px;font-weight:bold;color:#fff;background:var(--c);text-decoration:none;padding:8px 16px;border-radius:999px;margin:12px 6px 0 0}
 .btn:hover{filter:brightness(1.1)}
 
+/* Coffee Break with Beth (human-written column) */
+.coffee{background:var(--cream);border:2px solid var(--gold);border-radius:16px;padding:18px 22px;margin-bottom:28px}
+.coffee .ck{font-size:12px;font-weight:bold;letter-spacing:1.5px;color:var(--coral);text-transform:uppercase}
+.coffee .cn{font-size:12.5px;font-style:italic;color:var(--muted);margin-top:2px}
+.coffee .ct{margin-top:10px;font-size:16px;line-height:1.65}
+.coffee .ct p{margin:0 0 10px}
+.coffee .cs{font:italic 16px var(--serif)}
+
 /* sidebar */
 .cal{background:var(--card);border-radius:16px;padding:18px 18px 6px;box-shadow:0 1px 3px rgba(0,0,0,.06);border-top:5px solid var(--coral)}
 .ev{display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;font-size:14.5px;line-height:1.45}
@@ -279,7 +287,14 @@ def render_issue(d, depth, active=None):
              f'<div class="side-hero">{"".join(side)}</div></div></section>')
 
     # main column: top reads
-    main = ['<div class="sec" style="color:var(--teal)">Top reads</div>']
+    main = []
+    if d.get("coffee"):
+        c = d["coffee"]
+        paras = "".join(f"<p>{x}</p>" for x in c["paragraphs"])
+        main.append(f'<section class="coffee"><div class="ck">&#9749; {esc(c.get("title", "Coffee break"))}</div>'
+                    f'<div class="cn">{esc(c.get("note", ""))}</div><div class="ct">{paras}'
+                    f'<div class="cs">{esc(c.get("sign", ""))}</div></div></section>')
+    main.append('<div class="sec" style="color:var(--teal)">Top reads</div>')
     for i, t in enumerate(d["top"], 1):
         c = color(t.get("color", "teal"))
         bullets = "".join(f"<li>{b}</li>" for b in t["bullets"])

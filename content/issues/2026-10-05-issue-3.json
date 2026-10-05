@@ -1,0 +1,249 @@
+{
+  "issue": 3,
+  "date_iso": "2026-10-05",
+  "week_label": "Week of Oct 5, 2026",
+  "breath_title": "Safe to struggle, safe to say so.",
+  "breath_text": "A new 5-item scale offers a quick check on whether trainees feel safe sharing ideas, uncertainty, and mistakes. Residents who went through remediation echo it: transparency and personalization make or break the process. And as EHR metrics like TRACERs reveal each resident&#39;s practice patterns, how we share that data matters as much as the data.",
+  "in_this_issue": [
+    "A 5-item psych safety check",
+    "Remediation, residents' view",
+    "Automated care metrics (TRACERs)"
+  ],
+  "coffee": {
+    "title": "Coffee break with Beth",
+    "note": "In my own words. Written by Beth, not AI.",
+    "paragraphs": [
+      "How fun to see colleagues at my institution doing great scholarship on standardized ILP Forms. I took a look at their template - I saw areas of overlap with what we ask in our program, and of course some new ideas. I was intrigued by their first question: Please describe your personal and professional core values.",
+      "Golly, that&#39;s a big one. It sent me into a bit of a spiral wondering if I can define my own core values. I landed on kindness, family, growth. Not sure how well I live these broad values but maybe I should have an ILP with myself once or twice a year to check in on how I&#39;m doing."
+    ],
+    "sign": "- Beth"
+  },
+  "calendar": [
+    {
+      "mon": "OCT",
+      "day": "13",
+      "text": "<b>JGME &quot;New Ideas 2027&quot; submissions due.</b> 600-word innovation papers.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/september-28-2026/"
+    },
+    {
+      "mon": "OCT",
+      "day": "15",
+      "text": "<b>ACGME Clinician Educator Journal Club.</b> Lalena Yarris on education scholarship.",
+      "link_label": "Register",
+      "url": "https://dl.acgme.org/pages/acgme-clinician-educator-journal-club-registration-information"
+    },
+    {
+      "mon": "OCT",
+      "day": "22",
+      "text": "<b>ACGME Common Program Requirements comments due.</b>",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/september-28-2026/"
+    },
+    {
+      "mon": "NOV",
+      "day": "2",
+      "text": "<b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b>",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/meetings-education/spring/2027-2/"
+    },
+    {
+      "mon": "JAN",
+      "day": "29",
+      "text": "<b>NRMP standard registration deadline.</b> Match Day Mar 19.",
+      "link_label": "NRMP",
+      "url": "https://www.nrmp.org/match-calendars/master-calendar/"
+    }
+  ],
+  "top": [
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Well-being",
+          "teal"
+        ],
+        [
+          "Assessment",
+          "coral"
+        ]
+      ],
+      "headline": "Psychological safety, measured in 5 questions",
+      "bullets": [
+        "One health system put 9 candidate items in its annual trainee survey (<b>400 of 480</b> answered) and trimmed them to <b>5</b>: sharing ideas, giving and receiving feedback, expressing uncertainty, and mistakes as learning.",
+        "One factor, strong fit (CFI 0.99), <b>omega 0.91</b>, r = 0.67 with an external psych safety measure."
+      ],
+      "tip_label": "Try this:",
+      "tip": "short enough for an end-of-rotation survey, so you can trend it by site or team. Caveat: single-institution evidence.",
+      "citation": "Tcheroyan R, Roberts MB, Joshi ART, et al. <i>J Grad Med Educ</i>. 2026;18(4):407-414. PMID 42602734. doi:10.4300/JGME-D-25-00666.1",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475770/"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42602734/"
+        }
+      ]
+    },
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Peds GME",
+          "teal"
+        ],
+        [
+          "Remediation",
+          "coral"
+        ]
+      ],
+      "headline": "Remediation through residents&#39; eyes: be transparent, make it personal",
+      "bullets": [
+        "National qualitative study: <b>11 pediatric residents</b> who had been through remediation (2024).",
+        "Themes: <b>weak feedback systems</b>, too little <b>transparency and personalization</b>, and a toll on <b>well-being and careers</b>. The authors updated their PD-based remediation model."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "residents want a transparent, personal process that feels psychologically safe. Pairs with last week&#39;s APPD &quot;Trainee in Difficulty&quot; piece.",
+      "citation": "Cahaney C, Li ST, Nelsen E, et al. <i>Acad Pediatr</i>. Online June 18, 2026. doi:10.1016/j.acap.2026.103343",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1016/j.acap.2026.103343"
+        }
+      ]
+    },
+    {
+      "color": "purple",
+      "chips": [
+        [
+          "EHR data",
+          "purple"
+        ],
+        [
+          "Assessment",
+          "coral"
+        ]
+      ],
+      "headline": "TRACERs: your EHR may already know how each resident orders insulin",
+      "bullets": [
+        "3 IM programs built 2 automated, resident-attributed measures of inpatient diabetes care; EHR extraction matched expert review (<b>96%+ sensitivity, 95%+ specificity</b>).",
+        "In <b>615 residents and 6,192 admissions</b>, discouraged bolus-only insulin ran <b>26.7%-42.6%</b> by program, and residents varied more than programs."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "a preview of real-time, practice-based data for CCCs, with real barriers (different EHRs, tricky attribution).",
+      "citation": "Burk-Rafel J, Sebok-Syer SS, Larson I, et al. <i>Acad Med</i>. Online July 28, 2026. doi:10.1093/acamed/wvag239",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag239/8745962"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>Interview season is open.</b> Per APPD, peds invites can go out starting today; interviews are virtual, with in-person visits after Feb 2, 2027.",
+      "links": [
+        {
+          "label": "APPD letter",
+          "url": "https://www.appd.org/wp-content/uploads/2026/06/2026-27-Pediatrics-Residency-Recruitment-Recommendations-.pdf"
+        }
+      ]
+    },
+    {
+      "text": "<b>ACGME assessment course.</b> The Developing Faculty Competencies in Assessment course (Nov 8-13, Chicago) is filling up.",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/september-28-2026/"
+        }
+      ]
+    }
+  ],
+  "acadpeds": [
+    {
+      "chips": [
+        [
+          "Reflection",
+          "teal"
+        ]
+      ],
+      "text": "<b>&quot;Nothing You Can Say.&quot;</b> A discussion piece. <i>Title only; no abstract.</i>",
+      "authors": "Links Torwekar B. Online July 2.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103392"
+    },
+    {
+      "chips": [
+        [
+          "Educators",
+          "teal"
+        ]
+      ],
+      "text": "<b>Med ed tracks pay off.</b> Grads of one residency&#39;s medical education track (45/69 responded): 66% of attendings held formal educator roles; 89% said the track helped.",
+      "authors": "Reed S, Stewart C.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103373"
+    },
+    {
+      "chips": [
+        [
+          "Primary care",
+          "slate"
+        ]
+      ],
+      "text": "<b>Immigrant families.</b> 49% of 488 pediatricians felt prepared to care for children in immigrant families; bilingual staff (aOR 1.92) and care coordination (aOR 1.89) helped.",
+      "authors": "Rosenberg J, et al.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103447"
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "ILP",
+          "teal"
+        ]
+      ],
+      "text": "<b>A standardized ILP for GME:</b> a modified Delphi template (<i>JGME</i>, Aug; PMID 42603034). <i>Title only; abstract unreachable this run.</i> See Beth&#39;s Coffee Break.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13475752/"
+    },
+    {
+      "chips": [
+        [
+          "Reflection",
+          "teal"
+        ]
+      ],
+      "text": "<b>Measuring reflection:</b> 172 anesthesia trainees scored 2.5/4 on REFLECT, no higher in later years. DunnGalvin A, et al. <i>Acad Med</i>.",
+      "url": "https://academic.oup.com/academicmedicine/article/101/10/1308/8697680"
+    },
+    {
+      "chips": [
+        [
+          "Patient safety",
+          "coral"
+        ]
+      ],
+      "text": "<b>Order entry:</b> Nurses and pharmacists say new doctors rely on them to catch errors; peds is a risky moment. Fingeret AL, et al. <i>Acad Med</i>.",
+      "url": "https://academic.oup.com/academicmedicine/article/101/10/1297/8540474"
+    },
+    {
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ]
+      ],
+      "text": "<b>&quot;The cost of a better sentence&quot;:</b> <i>Acad Med</i> editors warn AI can deskill and homogenize ideas and urge &quot;thoughtful, fully informed&quot; use. Roberts LW, Gottlieb M.",
+      "url": "https://academic.oup.com/academicmedicine/article/101/10/1187/8828907"
+    }
+  ],
+  "footer": "From abstracts I read (OUP, ScienceDirect, PCOM repository) and ACGME, APPD, and NRMP pages. Crossref, PubMed/PMC, and AAP, JGME, Wiley, and T&amp;F sites were unreachable this run, so <i>Pediatrics</i>, <i>Hosp Pediatr</i>, <i>JAMA Peds</i>, <i>Med Educ</i>, <i>Med Teach</i>, and any new JGME issue weren&#39;t checked. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-10-05-issue-3.mp3",
+    "bytes": 2914429,
+    "seconds": 364,
+    "voice": "en_US-lessac-high"
+  }
+}
