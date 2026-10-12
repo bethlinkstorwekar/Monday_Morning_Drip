@@ -1,0 +1,161 @@
+{
+  "issue": 4,
+  "date_iso": "2026-10-12",
+  "week_label": "Week of Oct 12, 2026",
+  "breath_title": "Who (and what) is in the room with our learners?",
+  "breath_text": "Generative AI is now a reasoning partner at the bedside, so the authors of this week&#39;s top read argue we should teach and supervise the learner-AI pair, with graduated autonomy, not just the learner. Coaches who keep students tied to their values ease the jump to residency. And a growing share of the doctors our residents train beside come from Caribbean schools, most into primary care.",
+  "in_this_issue": [
+    "Redesigning reasoning for the AI era",
+    "Coaches and the residency transition",
+    "Caribbean grads in the US workforce"
+  ],
+  "calendar": [
+    {
+      "mon": "OCT",
+      "day": "13",
+      "text": "<b>JGME &quot;New Ideas 2027&quot; due (8 am CT).</b> 600-word innovation papers.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/september-28-2026/"
+    },
+    {
+      "mon": "OCT",
+      "day": "15",
+      "text": "<b>ACGME Clinician Educator Journal Club.</b> Lalena Yarris on turning education work into scholarship.",
+      "link_label": "Register",
+      "url": "https://dl.acgme.org/pages/acgme-clinician-educator-journal-club-registration-information"
+    },
+    {
+      "mon": "OCT",
+      "day": "22",
+      "text": "<b>ACGME Common Program Requirements comments due.</b>",
+      "link_label": "Review",
+      "url": "https://www.acgme.org/programs-and-institutions/programs/review-and-comment/"
+    },
+    {
+      "mon": "NOV",
+      "day": "2",
+      "text": "<b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b> Spring Meeting Mar 22-25, Indianapolis.",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/meetings-education/future-annual-meetings/"
+    }
+  ],
+  "top": [
+    {
+      "color": "purple",
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Clinical reasoning",
+          "teal"
+        ]
+      ],
+      "headline": "Teach the learner-AI pair: redesigning clinical reasoning education for generative AI",
+      "bullets": [
+        "Scholarly Perspective: GAI is an &quot;out-in-the-world&quot; reasoning tool, so the unit of learning shifts from the individual learner to the <b>learner-AI pair</b>, with room for upskilling but also <b>never-skilling, mis-skilling, and deskilling</b>.",
+        "Vignettes across training stages lead to <b>5 redesign strategies</b>: introduce GAI early, keep <b>reasoning-first</b> workflows, grant <b>graduated autonomy</b> for GAI use in care, train faculty to supervise GAI-assisted reasoning, and rethink assessment."
+      ],
+      "tip_label": "Try this:",
+      "tip": "treat AI use like any other entrustment decision on your team: talk about when learners use it on their own and when they reason first and check after.",
+      "citation": "Schaye VE, Parsons AS, Olson APJ, Abdulnour RE, Daniel M. <i>Acad Med</i>. Online Oct 8, 2026. doi:10.1093/acamed/wvag318",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag318/8885740"
+        }
+      ]
+    },
+    {
+      "color": "slate",
+      "chips": [
+        [
+          "UME",
+          "slate"
+        ],
+        [
+          "Coaching",
+          "teal"
+        ]
+      ],
+      "headline": "What a longitudinal coach adds on the road to residency",
+      "bullets": [
+        "Qualitative focus groups at Tufts (Apr-Jul 2025) with graduating students, coaches, and deans of student affairs.",
+        "<b>4 core coaching moves</b>: values-based reflection, emotional support, respecting student agency, and nudging students to a <b>broader advising network</b>. All 3 groups stressed validating students and keeping them tied to their values."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "these moves map onto how we onboard interns. Asking about values on day 1 may pay off.",
+      "citation": "Boehm L, Blanco M, Hayes V, et al. <i>Acad Med</i>. Online Oct 10, 2026. doi:10.1093/acamed/wvag322",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag322/8907286"
+        }
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Workforce",
+          "slate"
+        ],
+        [
+          "IMGs",
+          "teal"
+        ]
+      ],
+      "headline": "Caribbean medical schools: about 1 in 20 licensed US physicians",
+      "bullets": [
+        "ACGME residency data (2013-2023) plus FSMB licensure data: first US licenses to Caribbean grads rose from <b>33 in 1980 to 2,768 in 2024</b>; <b>49,256</b> now hold a license (<b>~5%</b> of licensed physicians).",
+        "Caribbean grads train in family medicine at <b>more than twice</b> the rate of US/Canadian grads and other IMGs, and are younger (mean age <b>44.1</b> vs 51.5 and 55.2)."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "a big, growing primary care pipeline. The authors call for accreditation-mandated transparency on student outcomes.",
+      "citation": "Gruppuso PA, Pei X, Arnhart K, et al. <i>Acad Med</i>. Online Oct 8, 2026. doi:10.1093/acamed/wvag317",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag317/8885741"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>2026 Milestones National Report is out.</b> The 11th edition (July 2025-June 2026) is in ACGME Cloud | Analytics, now with a dashboard-wide filter (ACGME, Oct 5).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/october-5-2026/"
+        }
+      ]
+    },
+    {
+      "text": "<b>ABP: measuring what matters in communication.</b> An ABP team surveyed young adult patients, families, and pediatricians to find the communication tasks essential to most visits; it won an ABMS poster award. A pilot tool for continuing certification comes next (ABP, Oct 5).",
+      "links": [
+        {
+          "label": "ABP",
+          "url": "https://www.abp.org/news/press-release/abp-research-physician-patient-communication-earns-national-recognition"
+        }
+      ]
+    },
+    {
+      "text": "<b>EM-Peds combined programs.</b> New board curricular requirements for Emergency Medicine-Pediatrics are posted (ACGME, Oct 5).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/programs-and-institutions/programs/combined-programs/"
+        }
+      ]
+    }
+  ],
+  "footer": "A short issue on purpose: only items first online Sep 28-Oct 11, 2026, each from an abstract or page I read (Acad Med on OUP; ACGME, ABP, and APPD pages). Checked with nothing new in the window: <i>Adv Health Sci Educ</i> and the current <i>JAMA Netw Open</i> issue. <b>Not checked this run</b> (Crossref, ScienceDirect, PubMed, and publisher sites blocked): <i>Academic Pediatrics</i>, <i>JGME</i>, <i>Pediatrics</i>, <i>Hosp Pediatr</i>, <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>Med Educ</i>, <i>Med Teach</i>, <i>TLM</i>, <i>PME</i>, and the general/IM journals. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-10-12-issue-4.mp3",
+    "bytes": 2356662,
+    "seconds": 295,
+    "voice": "en_US-lessac-high"
+  }
+}
