@@ -1,0 +1,219 @@
+{
+  "issue": 5,
+  "date_iso": "2026-10-19",
+  "week_label": "Week of Oct 19, 2026",
+  "breath_title": "Our trainees are already using AI. Now what?",
+  "breath_text": "A huge JAMA study shows residents and early-career doctors are the heaviest users of an AI clinical tool, and a companion Viewpoint asks what we should still teach once the machine can answer. Back in the analog world, a concept-map rubric may spot struggling students early, and faculty burnout ranges from 13% to 41% across schools, so some places are doing something right.",
+  "in_this_issue": [
+    "Who uses AI on the wards",
+    "Concept maps as early warning",
+    "Faculty burnout bright spots"
+  ],
+  "coffee": {
+    "title": "Coffee break with Beth",
+    "note": "In my own words. Written by Beth, not AI.",
+    "paragraphs": [
+      "I&#39;m interested in the Academic Medicine piece on rethinking clinical reasoning in the age of AI. The authors seem to support thoughtful early integration of AI tools into educational settings with graduated use - all things that make intuitive sense albeit hard to operationalize with competing demands from our larger systems that are driving broader, faster rollout of tools. I like the vignettes they propose and will find these very useful to borrow for upcoming faculty development!"
+    ],
+    "sign": "- Beth"
+  },
+  "calendar": [
+    {
+      "mon": "OCT",
+      "day": "19",
+      "text": "<b>ACGME LINC: Sponsoring Institution updates.</b> Today, 5-6 pm CT, open to all.",
+      "link_label": "Register",
+      "url": "https://zoom.us/meeting/register/N_YGNrRnTYuZW4iZZ3gh9Q#/registration"
+    },
+    {
+      "mon": "OCT",
+      "day": "22",
+      "text": "<b>ACGME Common Program Requirements comments due.</b>",
+      "link_label": "Review",
+      "url": "https://www.acgme.org/programs-and-institutions/programs/review-and-comment/"
+    },
+    {
+      "mon": "NOV",
+      "day": "2",
+      "text": "<b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b> Spring Meeting Mar 22-25, Indianapolis.",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/meetings-education/future-annual-meetings/"
+    },
+    {
+      "mon": "NOV",
+      "day": "8",
+      "text": "<b>ACGME Developing Faculty Competencies in Assessment.</b> Nov 8-13, Chicago; filling up.",
+      "link_label": "Info",
+      "url": "https://web.cvent.com/event/66a2f1e1-e471-4ac8-8484-0ff7f1691da9/summary"
+    }
+  ],
+  "top": [
+    {
+      "color": "purple",
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Trainees",
+          "teal"
+        ]
+      ],
+      "headline": "952,000 clinicians, 271 million AI queries: trainees lead the way",
+      "bullets": [
+        "Cross-sectional study of NPI-verified users of OpenEvidence (Jan 2024-Jun 2026): monthly active users grew from <b>355 to 703,265</b>; queries per user rose from 18 to 39.5 a month.",
+        "Residents and fellows are <b>14.8%</b> of the physician workforce but sent <b>27.2%</b> of physician queries (43.2 vs 35.3 queries per user-month for attendings). Early-career clinicians queried <b>pediatrics</b> more often.",
+        "<b>52%</b> of queries were for clinical decisions, mostly treatment (33%); only 14% were about diagnosis."
+      ],
+      "tip_label": "Try this:",
+      "tip": "ask your residents on rounds which AI tool they checked and what it said. Make the habit visible so you can coach it.",
+      "citation": "Patel VR, Finlayson SG, Liu-Hass M, Ray M, Burk-Rafel J, Zack TI, Jena AB, et al. <i>JAMA</i>. Online Oct 15, 2026. doi:10.1001/jama.2026.21868",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/2855491"
+        }
+      ]
+    },
+    {
+      "color": "slate",
+      "chips": [
+        [
+          "UME",
+          "slate"
+        ],
+        [
+          "Assessment",
+          "teal"
+        ]
+      ],
+      "headline": "A concept-map rubric that may flag struggling students early",
+      "bullets": [
+        "Harvard team built a <b>5-domain rubric</b> (comprehensiveness, analytic detail, organization, accuracy, overall quality) for student-made &quot;Mechanism Maps&quot; from <b>134</b> first-year students.",
+        "4 raters agreed good-to-excellent in most domains (accuracy was weakest). For one vignette, each 1-point higher score roughly <b>doubled the odds</b> of finishing above the bottom exam quartile, even after adjusting for quizzes."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "an ungraded reasoning exercise could double as an early signal. The authors call for validation at other schools first.",
+      "citation": "Fischer K, Furfaro D, Iyer AA, Richards JB, Mitchell J, Sullivan AM, Schwartzstein RM. <i>Acad Med</i> (Innovation Report). Online Oct 14, 2026. doi:10.1093/acamed/wvag324",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag324/8916284"
+        }
+      ]
+    },
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Well-being",
+          "coral"
+        ],
+        [
+          "Faculty",
+          "teal"
+        ]
+      ],
+      "headline": "Faculty burnout: 13% at some schools, 41% at others",
+      "bullets": [
+        "AAMC StandPoint survey, <b>28</b> US medical schools, <b>15,404</b> faculty (2021-2024): pooled burnout <b>32%</b>; commitment 74%-95% and satisfaction 62%-86% across schools.",
+        "Only <b>67 of 502</b> departments (13%) had both low burnout and high commitment. Autonomy, purpose, and belonging helped explain department burnout."
+      ],
+      "tip_label": "Synthesis:",
+      "tip": "track burnout and engagement together, and go find the bright-spot departments to learn from.",
+      "citation": "Badgett RG, Balas K, Pipas CF, Courand J, Hartwell JL, Dandar VM. <i>JAMA Netw Open</i>. 2026;9(10):e2639005. Online Oct 14, 2026. doi:10.1001/jamanetworkopen.2026.39005",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855280"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>New nutrition requirements for Pediatrics.</b> The ACGME Board approved an interim revision to nutrition requirements for 36 specialties and subspecialties, including Pediatrics, Child Neurology, and several peds subspecialties. Effective July 1, 2027 (ACGME, Oct 12).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/october-12-2026/"
+        }
+      ]
+    },
+    {
+      "text": "<b>Institutional Requirements overhaul approved.</b> A major revision of the ACGME Institutional Requirements takes effect July 1, 2027 (ACGME, Oct 12).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/programs-and-institutions/institutions/institutional-requirements-and-application/"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "Beth's pick",
+          "coral"
+        ],
+        [
+          "AI",
+          "purple"
+        ]
+      ],
+      "text": "<b>Teach the learner-AI pair.</b> The Acad Med Scholarly Perspective in this week&#39;s Coffee Break: 5 strategies, from introducing GAI early to graduated autonomy for its use (Schaye VE et al. Online Oct 8, 2026).",
+      "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag318/8885740"
+    },
+    {
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Curriculum",
+          "teal"
+        ]
+      ],
+      "text": "<b>Physician training for the AI era.</b> JAMA Viewpoint warns of &quot;never-skilling&quot; and proposes 3 moves: stress skills AI makes more valuable, build skills AI makes newly necessary, and carefully de-emphasize the rest (Burk-Rafel J, Wachter RM. Online Oct 14, 2026).",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2855358"
+    },
+    {
+      "chips": [
+        [
+          "UME",
+          "slate"
+        ],
+        [
+          "Engagement",
+          "teal"
+        ]
+      ],
+      "text": "<b>Engagement and the wish to practise.</b> 67,439 Chinese students, 94 schools: intention to practise fell through Year 4; emotional engagement mattered in every year (Wu H et al. <i>Perspect Med Educ</i>. Online Oct 6, 2026).",
+      "url": "https://pmejournal.org/en/articles/10.5334/pme.2157"
+    },
+    {
+      "chips": [
+        [
+          "Title only",
+          "slate"
+        ],
+        [
+          "AI",
+          "purple"
+        ]
+      ],
+      "text": "<b>&quot;Concept before capability: a validity-led approach to AI in OSCEs.&quot;</b> Amiry J, Galloway J, Oram H. <i>Adv Health Sci Educ</i>. Online Oct 16, 2026. Title only: the page was rate-limited, so I couldn&#39;t read the abstract.",
+      "url": "https://link.springer.com/article/10.1007/s10459-026-10585-1"
+    }
+  ],
+  "footer": "Only items first online Oct 5-18, 2026, each from an abstract or page I read (JAMA Network, Acad Med on OUP, PME, ACGME), except the one title-only item and Beth&#39;s pick. Checked with nothing new for med ed in the window: <i>JAMA Pediatr</i>, ABP, APPD. <b>Not checked this run</b> (Crossref, ScienceDirect, PubMed, and AAP/JGME sites blocked or rate-limited): <i>Academic Pediatrics</i>, <i>JGME</i>, <i>Pediatrics</i>, <i>Hosp Pediatr</i>, <i>J Pediatr</i>, <i>Med Educ</i>, <i>Med Teach</i>, <i>TLM</i>, <i>NEJM</i>, <i>BMJ</i>, <i>Lancet</i>, <i>JAMA Intern Med</i>, <i>Ann Intern Med</i>, <i>JGIM</i>, <i>J Hosp Med</i>. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-10-19-issue-5.mp3",
+    "bytes": 2857377,
+    "seconds": 357,
+    "voice": "en_US-lessac-high"
+  }
+}
