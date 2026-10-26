@@ -1,0 +1,188 @@
+{
+  "issue": 6,
+  "date_iso": "2026-10-26",
+  "week_label": "Week of Oct 26, 2026",
+  "breath_title": "Fix the system, not the learner.",
+  "breath_text": "This week&#39;s papers keep pointing at structures: grading committees and longitudinal clerkships shrink some Honors gaps, early low-stakes monitoring plans go with fewer formal remediation plans, and the JD-R model reframes trainee burnout as a demands-vs-resources problem on the wards. Meanwhile, AI could help with every piece of CBME, if we evaluate it honestly.",
+  "in_this_issue": [
+    "Who gets Honors, and what helps",
+    "Low-stakes plans, less remediation",
+    "AI x CBME roadmap"
+  ],
+  "coffee": {
+    "title": "Coffee break with Beth",
+    "note": "In my own words. Written by Beth, not AI.",
+    "paragraphs": [
+      "I like the Job Demands vs Resources article pending publication in Academic Medicine. On the one hand, the demand vs resource idea from the business world seems very simple. And yet it is also a powerful model for shifting focus off of trainees as a source of blame when it comes to their own burnout, and back onto our systems. I think this has particular relevance as lots of generational differences have led to a more alluring temptation to blame trainees for being burned out&hellip; simultaneous with increasingly strained systems that are not supplying adequate resources to get our day to day work done."
+    ],
+    "sign": "- Beth"
+  },
+  "calendar": [
+    {
+      "mon": "OCT",
+      "day": "31",
+      "text": "<b>Download old ADS reports.</b> Survey and Milestones PDFs older than 5 years leave ADS.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/october-19-2026/"
+    },
+    {
+      "mon": "NOV",
+      "day": "2",
+      "text": "<b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b> Spring Meeting Mar 22-25, Indianapolis.",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/meetings-education/future-annual-meetings/"
+    },
+    {
+      "mon": "NOV",
+      "day": "8",
+      "text": "<b>ACGME Developing Faculty Competencies in Assessment.</b> Nov 8-13, Chicago.",
+      "link_label": "Info",
+      "url": "https://web.cvent.com/event/66a2f1e1-e471-4ac8-8484-0ff7f1691da9/summary"
+    },
+    {
+      "mon": "NOV",
+      "day": "19",
+      "text": "<b>ACGME Clinician Educator Journal Club.</b> Round34: tabletop gameplay on rounds. Noon CT.",
+      "link_label": "Register",
+      "url": "https://zoom.us/webinar/register/WN_F76Nq2SLQuW-D44gL8ZVuQ#/registration"
+    }
+  ],
+  "top": [
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Assessment",
+          "teal"
+        ],
+        [
+          "Equity",
+          "coral"
+        ],
+        [
+          "UME",
+          "slate"
+        ]
+      ],
+      "headline": "Honors gaps persist across 5 schools, but structure can shrink them",
+      "bullets": [
+        "<b>17,513</b> clerkship grades from <b>3,012</b> third-year students at 5 US schools (2016-2023). Gender, race/ethnicity, and SES gaps in Honors persisted after adjusting for medical knowledge.",
+        "Overall Honors rates were similar in LICs vs block rotations (40% vs 42%), but URM students were more likely to get Honors in LICs (aOR <b>1.73</b>), as were non-URM minority students (aOR 1.77).",
+        "Grading committees didn&#39;t change overall Honors rates, but narrowed the gap in which men got Honors less often than women (aOR 1.29)."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "clerkship grades feed straight into our residency applications. A grading committee is a fairly cheap fix to try.",
+      "citation": "Lockspeiser T, Christensen W, Colson E, Aagaard E, Artino AR Jr, et al., Chen HC. <i>Acad Med</i> (Research Report). Online Oct 24, 2026. doi:10.1093/acamed/wvag340",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag340/9001838"
+        }
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Remediation",
+          "teal"
+        ],
+        [
+          "CBME",
+          "teal"
+        ]
+      ],
+      "headline": "Catch it early: monitoring plans go with fewer formal learning plans",
+      "bullets": [
+        "<b>470</b> residents in <b>42</b> programs at one Canadian institution (2019-2025); plans were coded as monitoring, minor, or major.",
+        "Monitoring plans were linked to a lower chance of later minor (beta <b>-0.26</b>) and major (beta <b>-0.17</b>) plans. Minor plans did not predict major ones.",
+        "Four program profiles emerged, from monitoring-heavy to intensive-plan-heavy, pointing to local culture."
+      ],
+      "tip_label": "Try this:",
+      "tip": "make a written, low-stakes &quot;monitoring&quot; plan a normal CCC outcome, not a scarlet letter. Remember it&#39;s an association, not proof of cause.",
+      "citation": "Hamza DM. <i>Acad Med</i> (Research Report). Online Oct 20, 2026. doi:10.1093/acamed/wvag338",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag338/8956104"
+        }
+      ]
+    },
+    {
+      "color": "purple",
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "CBME",
+          "teal"
+        ]
+      ],
+      "headline": "A roadmap for AI in each of the 5 parts of CBME",
+      "bullets": [
+        "The ICBME Collaborative (Lomis, Pusic, Warm, Hauer, and others) maps AI onto all <b>5</b> CBME core components using socio-technical systems theory.",
+        "Examples: LLMs tagging narrative comments to Milestones/EPAs, nudges when a resident has enough evidence for more autonomy, and cohort summaries that show who gets less feedback.",
+        "They call for AI literacy, learner involvement, and rigorous evaluation for fairness."
+      ],
+      "tip_label": "Synthesis:",
+      "tip": "a great menu for a CCC or faculty retreat: pick one component and one tool, then measure it.",
+      "citation": "Lomis KD, Pusic MV, Warm E, et al., Hauer KE. <i>Perspect Med Educ</i> (Eye Opener, open access). Published Oct 22, 2026. doi:10.5334/pme.2594",
+      "links": [
+        {
+          "label": "Full text (open)",
+          "url": "https://pmejournal.org/en/articles/10.5334/pme.2594"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>ACGME AEC 2027 schedule is out.</b> Feb 25-27, 2027, San Antonio; registration opens soon. Also new: a self-paced Simulated Program Review course (ACGME, Oct 19).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/october-19-2026/"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "Beth's pick",
+          "coral"
+        ],
+        [
+          "Well-being",
+          "coral"
+        ]
+      ],
+      "text": "<b>Demands vs resources on the wards.</b> The JD-R model in this week&#39;s Coffee Break: the same teaching practice can be a demand or a resource, depending on how it&#39;s done (Ratelle JT, Goldszmidt M, Knees M. <i>Acad Med</i>. Online Oct 20, 2026).",
+      "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag333/8943991"
+    },
+    {
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Assessment",
+          "slate"
+        ]
+      ],
+      "text": "<b>GPT grades OSCE notes.</b> 433 notes: GPT-4o mini was consistent (ICC 0.94) but scored 0.65-1.12 points lower than faculty on a 1-4 scale; rank order agreed moderately (r 0.43-0.53) (Nash CJ et al. <i>Acad Med</i>. Online Oct 24, 2026).",
+      "url": "https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag336/8996721"
+    }
+  ],
+  "footer": "Only items first online Oct 12-25, 2026, each from an abstract or page I read (Acad Med on OUP, PME, JAMA Network, ACGME). Checked with nothing new for med ed in the window: JAMA Network med ed collection, APPD. <b>Not checked this run</b> (Crossref, ScienceDirect, PubMed, Springer, and AAP/JGME sites blocked): <i>Academic Pediatrics</i>, <i>JGME</i> (Oct issue is out), <i>Pediatrics</i>, <i>Hosp Pediatr</i>, <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>Med Educ</i>, <i>Med Teach</i>, <i>Adv Health Sci Educ</i>, <i>TLM</i>, <i>NEJM</i>, <i>BMJ</i>, <i>Lancet</i>, <i>JAMA Intern Med</i>, <i>Ann Intern Med</i>, <i>JGIM</i>, <i>J Hosp Med</i>. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-10-26-issue-6.mp3",
+    "bytes": 2745155,
+    "seconds": 343,
+    "voice": "en_US-lessac-high"
+  }
+}

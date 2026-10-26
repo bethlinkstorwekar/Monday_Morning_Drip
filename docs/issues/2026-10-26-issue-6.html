@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Issue 6 - The Monday Morning Drip</title>
+<meta name="description" content="Fix the system, not the learner.">
+<meta property="og:title" content="Issue 6 - The Monday Morning Drip">
+<meta property="og:description" content="Fix the system, not the learner.">
+<meta property="og:image" content="https://bethlinkstorwekar.github.io/Monday_Morning_Drip/cover.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="The Monday Morning Drip" href="../feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Monday Morning Drip (podcast)" href="../podcast.xml">
+<style>
+:root{--teal:#0e6e73;--teal-dk:#0a5357;--coral:#e2574c;--purple:#6b4c9a;--slate:#44525f;--gold:#f4b73f;
+--ink:#1d2733;--muted:#5a6776;--line:#dfe4e9;--cream:#fff6e0;--blush:#fdecea;--mint:#e3f3f2;
+--gray:#f2f4f6;--page:#f5f3ee;--card:#ffffff;--serif:Georgia,'Times New Roman',serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--page);color:var(--ink);font:16px/1.55 Helvetica,Arial,sans-serif}
+a{color:var(--teal)}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* sticky top bar */
+.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line)}
+.top .w{display:flex;align-items:center;gap:16px;min-height:62px}
+.brand{font:bold 22px/1.1 var(--serif);color:var(--teal);text-decoration:none;flex:1}
+.brand span{color:var(--coral)}
+.brand small{display:block;font:italic 13px var(--serif);color:var(--muted);font-weight:normal}
+.pills{display:flex;gap:8px}
+.pill{text-decoration:none;font-weight:bold;font-size:14px;padding:9px 16px;border-radius:999px;
+  border:2px solid var(--teal);color:var(--teal);white-space:nowrap}
+.pill.on{background:var(--teal);color:#fff}
+.pill:hover{box-shadow:0 2px 8px rgba(14,110,115,.25)}
+
+.switch{display:flex;border:2px solid var(--teal);border-radius:14px;overflow:hidden;background:#fff}
+.seg{display:flex;flex-direction:column;justify-content:center;text-decoration:none;color:var(--teal);padding:6px 18px;min-width:150px;line-height:1.2}
+.seg + .seg{border-left:2px solid var(--teal)}
+.seg .t{font-weight:bold;font-size:15px}
+.seg .s{font-size:11.5px;color:var(--muted);margin-top:2px}
+.seg.on{background:var(--teal);color:#fff}.seg.on .s{color:#d6ecea}
+.seg:not(.on):hover{background:var(--mint)}
+
+/* past issues band */
+.past{background:var(--teal);color:#fff}
+.past .w{padding-top:18px;padding-bottom:18px}
+.past-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.past-t{font:bold 20px var(--serif)}
+.past-all{background:var(--gold);color:var(--ink);font-weight:bold;text-decoration:none;padding:9px 18px;border-radius:999px;white-space:nowrap}
+.past-all:hover{filter:brightness(1.05);box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.pcs{display:flex;gap:12px;margin-top:14px;overflow-x:auto;padding-bottom:4px}
+.pc{flex:0 0 250px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.28);border-radius:12px;padding:10px 14px;
+  text-decoration:none;color:#fff;display:flex;flex-direction:column;gap:3px}
+.pc:hover{background:rgba(255,255,255,.18)}
+.pn{font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#ffd98a}
+.ph{font:bold 16px/1.3 var(--serif)}
+.pd{font-size:12px;color:#d6ecea}
+.past-bottom{margin-top:10px}
+
+/* hero */
+.hero{background:var(--cream);border-bottom:4px solid var(--teal)}
+.hero .w{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;padding-top:40px;padding-bottom:40px;align-items:start}
+.kicker{font-size:12px;letter-spacing:1.5px;color:var(--coral);font-weight:bold;text-transform:uppercase}
+.hero h1{font:bold 46px/1.08 var(--serif);margin:10px 0 14px;color:var(--ink)}
+.hero .lede{font-size:18px;line-height:1.6;margin:0}
+.inissue{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.inissue b{font-size:12px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-right:2px}
+.inissue a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px;
+  text-decoration:none;color:var(--ink)}
+.inissue a:hover{border-color:var(--teal);color:var(--teal)}
+.side-hero{display:flex;flex-direction:column;gap:14px}
+.listen{background:var(--teal);color:#fff;border-radius:16px;padding:18px 18px 16px;box-shadow:0 6px 20px rgba(14,110,115,.25)}
+.listen .lt{font:bold 20px var(--serif)}
+.listen .ls{font-size:13px;color:#d6ecea;margin:2px 0 12px}
+.listen audio{width:100%;display:block}
+.listen a{color:#fff}
+.meta{font-size:14px;color:var(--muted)}
+.ainote{border:1px dashed #d9cfae;border-radius:10px;padding:10px 12px;font-size:12.5px;color:var(--muted);background:rgba(255,255,255,.5)}
+.older{background:var(--blush);border-radius:10px;padding:10px 14px;font-size:14px}
+
+/* body grid */
+.grid{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:40px;padding-top:36px;padding-bottom:20px}
+.aside{position:sticky;top:84px;align-self:start;display:flex;flex-direction:column;gap:22px}
+.sec{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:12px;font-weight:bold;letter-spacing:1.5px;white-space:nowrap;text-transform:uppercase}
+.sec::after{content:"";flex:1;border-bottom:2px solid currentColor;opacity:.8}
+.block{margin-bottom:36px}
+.more{font-weight:bold;text-decoration:none;white-space:nowrap}
+.chip{display:inline-block;font-size:10.5px;font-weight:bold;letter-spacing:.5px;padding:3px 8px;border-radius:999px;margin-right:4px;text-transform:uppercase;vertical-align:middle}
+
+/* top reads */
+.card{background:var(--card);border-radius:16px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 6px 18px rgba(0,0,0,.04);
+  display:grid;grid-template-columns:64px minmax(0,1fr);overflow:hidden;scroll-margin-top:84px}
+.card .num{background:var(--c);color:#fff;font:bold 34px var(--serif);display:flex;justify-content:center;padding-top:18px}
+.card .in{padding:18px 22px 20px}
+.card h3{font:bold 23px/1.25 var(--serif);margin:10px 0 12px}
+.card ul{margin:0 0 12px;padding-left:20px}.card li{margin-bottom:8px}.card li::marker{color:var(--c);font-weight:bold}
+.tip{background:var(--gray);border-left:4px solid var(--c);border-radius:0 10px 10px 0;padding:10px 14px;font-size:15px;margin:4px 0 12px}
+.tip b{color:var(--c)}
+.cite{font-size:12.5px;color:var(--muted)}
+.btn{display:inline-block;font-size:13px;font-weight:bold;color:#fff;background:var(--c);text-decoration:none;padding:8px 16px;border-radius:999px;margin:12px 6px 0 0}
+.btn:hover{filter:brightness(1.1)}
+
+/* Coffee Break with Beth (human-written column) */
+.coffee{background:var(--cream);border:2px solid var(--gold);border-radius:16px;padding:18px 22px;margin-bottom:28px}
+.coffee .ck{font-size:12px;font-weight:bold;letter-spacing:1.5px;color:var(--coral);text-transform:uppercase}
+.coffee .cn{font-size:12.5px;font-style:italic;color:var(--muted);margin-top:2px}
+.coffee .ct{margin-top:10px;font-size:16px;line-height:1.65}
+.coffee .ct p{margin:0 0 10px}
+.coffee .cs{font:italic 16px var(--serif)}
+
+/* sidebar */
+.cal{background:var(--card);border-radius:16px;padding:18px 18px 6px;box-shadow:0 1px 3px rgba(0,0,0,.06);border-top:5px solid var(--coral)}
+.ev{display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;font-size:14.5px;line-height:1.45}
+.date{flex:0 0 50px;border:2px solid var(--coral);border-radius:8px;overflow:hidden;text-align:center;background:#fff}
+.date .m{background:var(--coral);color:#fff;font-size:10px;font-weight:bold;letter-spacing:1px;padding:2px 0}
+.date .d{font:bold 20px var(--serif);padding:2px 0 3px}
+.news{background:var(--mint);border-radius:14px;padding:16px 18px;margin-bottom:12px;font-size:14.5px}
+
+/* card grids */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.tile{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:0 1px 3px rgba(0,0,0,.06);font-size:15px;border-top:4px solid var(--line)}
+.tile .chips{margin-bottom:8px}
+.tile .au{color:var(--muted);font-size:13px}
+.tiles.quick .tile{font-size:14.5px;background:transparent;box-shadow:none;border:1px solid var(--line);border-top:4px solid var(--line)}
+
+.foot{background:var(--card);border-radius:14px;padding:16px 18px;font-size:13px;color:var(--muted);margin:10px 0 18px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.sign{text-align:center;font-size:13px;color:var(--muted);padding:6px 0 18px}
+.nav{display:flex;justify-content:space-between;gap:12px;font-size:15px;padding-bottom:40px}
+.nav a{font-weight:bold;text-decoration:none}
+
+/* archive */
+.arch-hero h1{font-size:40px}
+.issues{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;padding:36px 0 50px}
+.issue{display:block;background:var(--card);border-radius:16px;padding:20px 22px;text-decoration:none;color:var(--ink);
+  box-shadow:0 1px 3px rgba(0,0,0,.06),0 6px 18px rgba(0,0,0,.04);border-top:5px solid var(--teal);transition:transform .15s}
+.issue:hover{transform:translateY(-2px)}
+.issue .n{font-size:12px;font-weight:bold;letter-spacing:1.5px;color:var(--coral);text-transform:uppercase}
+.issue h2{font:bold 22px/1.25 var(--serif);margin:6px 0 8px;color:var(--teal)}
+.issue p{margin:0 0 10px;font-size:14.5px;color:var(--muted)}
+.issue .tags{font-size:13px;color:var(--ink)}
+.badges{margin-top:8px;min-height:20px}
+.badge{display:inline-block;background:var(--teal);color:#fff;border-radius:999px;font-size:11px;font-weight:bold;padding:2px 9px;margin-right:6px}
+.issue.latest{border-top-color:var(--coral)}
+
+@media (max-width:900px){
+  .hero .w,.grid{grid-template-columns:minmax(0,1fr);gap:24px}
+  .aside{display:contents}
+  .aside .s-cal{order:-1}.aside .s-news{order:1}
+  .hero h1{font-size:34px}
+}
+@media (max-width:560px){
+  .w{padding:0 16px}
+  .top .w{flex-wrap:wrap;gap:8px;padding-top:8px;padding-bottom:10px}
+  .brand{font-size:19px}.brand small{display:none}
+  .switch{width:100%}.seg{flex:1;min-width:0;padding:6px 10px;text-align:center}
+  .seg .t{font-size:14px}
+  .past-t{font-size:17px}.past-all{padding:7px 14px;font-size:14px}.pc{flex-basis:210px}
+  .hero .w{padding-top:26px;padding-bottom:26px}
+  .hero h1{font-size:29px}.hero .lede{font-size:16.5px}
+  .card{grid-template-columns:minmax(0,1fr)}
+  .card .num{justify-content:flex-start;padding:8px 18px;font-size:22px}
+  .card .in{padding:14px 16px 16px}.card h3{font-size:20px}
+  .tiles,.issues{grid-template-columns:minmax(0,1fr)}
+}
+</style></head>
+<body><header class="top"><div class="w"><a class="brand" href="../index.html">The Monday Morning <span>Drip</span><small>Pediatric med ed for the busy educator</small></a><nav class="switch" aria-label="Site"><a class="seg on" href="../index.html" aria-current="page"><span class="t">&#9749; Current issue</span><span class="s">Issue 6</span></a><a class="seg" href="../archive.html"><span class="t">&#128218; Archive</span><span class="s">Browse all 6 issues</span></a></nav></div></header><section class="hero"><div class="w"><div><div class="kicker">Issue 6 &middot; Week of Oct 26, 2026</div><h1>Fix the system, not the learner.</h1><p class="lede">This week&#39;s papers keep pointing at structures: grading committees and longitudinal clerkships shrink some Honors gaps, early low-stakes monitoring plans go with fewer formal remediation plans, and the JD-R model reframes trainee burnout as a demands-vs-resources problem on the wards. Meanwhile, AI could help with every piece of CBME, if we evaluate it honestly.</p><div class="inissue"><b>In this issue</b><a href="#read-1">Who gets Honors, and what helps</a><a href="#read-2">Low-stakes plans, less remediation</a><a href="#read-3">AI x CBME roadmap</a></div></div><div class="side-hero"><section class="listen"><div class="lt">&#127911; Listen to this issue</div><div class="ls">~6-min audio edition &middot; AI-narrated &middot; <a href="../podcast.xml">Subscribe</a></div><audio controls preload="none" src="../audio/2026-10-26-issue-6.mp3"></audio></section><div class="meta">&#9749; Freshly brewed every Monday &middot; ~5-min read</div><div class="ainote"><b>Heads up:</b> this digest is AI-generated (compiled by Claude) and may not have been fully checked by me. Summaries can contain errors, so please verify with the original source before citing or acting on anything.</div></div></div></section><section class="past past-top"><div class="w"><div class="past-head"><div class="past-t">&#128218; Catch up on past issues</div><a class="past-all" href="../archive.html">See all 6 issues &rarr;</a></div><div class="pcs"><a class="pc" href="../issues/2026-10-19-issue-5.html"><span class="pn">Issue 5 &middot; Audio</span><span class="ph">Our trainees are already using AI. Now what?</span><span class="pd">Week of Oct 19, 2026</span></a><a class="pc" href="../issues/2026-10-12-issue-4.html"><span class="pn">Issue 4 &middot; Audio</span><span class="ph">Who (and what) is in the room with our learners?</span><span class="pd">Week of Oct 12, 2026</span></a><a class="pc" href="../issues/2026-10-05-issue-3.html"><span class="pn">Issue 3 &middot; Audio</span><span class="ph">Safe to struggle, safe to say so.</span><span class="pd">Week of Oct 5, 2026</span></a><a class="pc" href="../issues/2026-09-28-issue-2.html"><span class="pn">Issue 2 &middot; Audio</span><span class="ph">&quot;Ready&quot; has to be proven now.</span><span class="pd">Week of Sept 28, 2026</span></a></div></div></section><div class="w grid"><main><section class="coffee"><div class="ck">&#9749; Coffee break with Beth</div><div class="cn">In my own words. Written by Beth, not AI.</div><div class="ct"><p>I like the Job Demands vs Resources article pending publication in Academic Medicine. On the one hand, the demand vs resource idea from the business world seems very simple. And yet it is also a powerful model for shifting focus off of trainees as a source of blame when it comes to their own burnout, and back onto our systems. I think this has particular relevance as lots of generational differences have led to a more alluring temptation to blame trainees for being burned out&hellip; simultaneous with increasingly strained systems that are not supplying adequate resources to get our day to day work done.</p><div class="cs">- Beth</div></div></section><div class="sec" style="color:var(--teal)">Top reads</div><article class="card" id="read-1" style="--c:#e2574c"><div class="num">1</div><div class="in"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Assessment</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Equity</span><span class="chip" style="color:#44525f;background:#44525f1a">UME</span><h3>Honors gaps persist across 5 schools, but structure can shrink them</h3><ul><li><b>17,513</b> clerkship grades from <b>3,012</b> third-year students at 5 US schools (2016-2023). Gender, race/ethnicity, and SES gaps in Honors persisted after adjusting for medical knowledge.</li><li>Overall Honors rates were similar in LICs vs block rotations (40% vs 42%), but URM students were more likely to get Honors in LICs (aOR <b>1.73</b>), as were non-URM minority students (aOR 1.77).</li><li>Grading committees didn&#39;t change overall Honors rates, but narrowed the gap in which men got Honors less often than women (aOR 1.29).</li></ul><div class="tip"><b>Why it matters:</b> clerkship grades feed straight into our residency applications. A grading committee is a fairly cheap fix to try.</div><div class="cite">Lockspeiser T, Christensen W, Colson E, Aagaard E, Artino AR Jr, et al., Chen HC. <i>Acad Med</i> (Research Report). Online Oct 24, 2026. doi:10.1093/acamed/wvag340</div><a class="btn" href="https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag340/9001838">Full text &rsaquo;</a></div></article><article class="card" id="read-2" style="--c:#0e6e73"><div class="num">2</div><div class="in"><span class="chip" style="color:#0e6e73;background:#0e6e731a">Remediation</span><span class="chip" style="color:#0e6e73;background:#0e6e731a">CBME</span><h3>Catch it early: monitoring plans go with fewer formal learning plans</h3><ul><li><b>470</b> residents in <b>42</b> programs at one Canadian institution (2019-2025); plans were coded as monitoring, minor, or major.</li><li>Monitoring plans were linked to a lower chance of later minor (beta <b>-0.26</b>) and major (beta <b>-0.17</b>) plans. Minor plans did not predict major ones.</li><li>Four program profiles emerged, from monitoring-heavy to intensive-plan-heavy, pointing to local culture.</li></ul><div class="tip"><b>Try this:</b> make a written, low-stakes &quot;monitoring&quot; plan a normal CCC outcome, not a scarlet letter. Remember it&#39;s an association, not proof of cause.</div><div class="cite">Hamza DM. <i>Acad Med</i> (Research Report). Online Oct 20, 2026. doi:10.1093/acamed/wvag338</div><a class="btn" href="https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag338/8956104">Full text &rsaquo;</a></div></article><article class="card" id="read-3" style="--c:#6b4c9a"><div class="num">3</div><div class="in"><span class="chip" style="color:#6b4c9a;background:#6b4c9a1a">AI</span><span class="chip" style="color:#0e6e73;background:#0e6e731a">CBME</span><h3>A roadmap for AI in each of the 5 parts of CBME</h3><ul><li>The ICBME Collaborative (Lomis, Pusic, Warm, Hauer, and others) maps AI onto all <b>5</b> CBME core components using socio-technical systems theory.</li><li>Examples: LLMs tagging narrative comments to Milestones/EPAs, nudges when a resident has enough evidence for more autonomy, and cohort summaries that show who gets less feedback.</li><li>They call for AI literacy, learner involvement, and rigorous evaluation for fairness.</li></ul><div class="tip"><b>Synthesis:</b> a great menu for a CCC or faculty retreat: pick one component and one tool, then measure it.</div><div class="cite">Lomis KD, Pusic MV, Warm E, et al., Hauer KE. <i>Perspect Med Educ</i> (Eye Opener, open access). Published Oct 22, 2026. doi:10.5334/pme.2594</div><a class="btn" href="https://pmejournal.org/en/articles/10.5334/pme.2594">Full text (open) &rsaquo;</a></div></article></main><aside class="aside"><section class="s-cal"><div class="sec" style="color:var(--coral)">Mark your calendar</div><div class="cal"><div class="ev"><div class="date"><div class="m">OCT</div><div class="d">31</div></div><div><b>Download old ADS reports.</b> Survey and Milestones PDFs older than 5 years leave ADS. <a class="more" href="https://www.acgme.org/newsroom/e-communication/2026/october-19-2026/">ACGME &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">NOV</div><div class="d">2</div></div><div><b>APPD Spring ELS proposals and PAS 2027 abstracts due.</b> Spring Meeting Mar 22-25, Indianapolis. <a class="more" href="https://www.appd.org/meetings-education/future-annual-meetings/">APPD &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">NOV</div><div class="d">8</div></div><div><b>ACGME Developing Faculty Competencies in Assessment.</b> Nov 8-13, Chicago. <a class="more" href="https://web.cvent.com/event/66a2f1e1-e471-4ac8-8484-0ff7f1691da9/summary">Info &rsaquo;</a></div></div><div class="ev"><div class="date"><div class="m">NOV</div><div class="d">19</div></div><div><b>ACGME Clinician Educator Journal Club.</b> Round34: tabletop gameplay on rounds. Noon CT. <a class="more" href="https://zoom.us/webinar/register/WN_F76Nq2SLQuW-D44gL8ZVuQ#/registration">Register &rsaquo;</a></div></div></div></section><section class="s-news"><div class="sec" style="color:var(--teal)">APPD &amp; GME news</div><div class="news"><b>ACGME AEC 2027 schedule is out.</b> Feb 25-27, 2027, San Antonio; registration opens soon. Also new: a self-paced Simulated Program Review course (ACGME, Oct 19). <a class="more" href="https://www.acgme.org/newsroom/e-communication/2026/october-19-2026/">ACGME &rsaquo;</a></div></section></aside></div><div class="w"><section class="block"><div class="sec" style="color:var(--slate)">Quick hits</div><div class="tiles quick"><div class="tile" style="border-top-color:#e2574c"><div class="chips"><span class="chip" style="color:#e2574c;background:#e2574c1a">Beth&#x27;s pick</span><span class="chip" style="color:#e2574c;background:#e2574c1a">Well-being</span></div><b>Demands vs resources on the wards.</b> The JD-R model in this week&#39;s Coffee Break: the same teaching practice can be a demand or a resource, depending on how it&#39;s done (Ratelle JT, Goldszmidt M, Knees M. <i>Acad Med</i>. Online Oct 20, 2026). <a class="more" href="https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag333/8943991">Full text &rsaquo;</a></div><div class="tile" style="border-top-color:#6b4c9a"><div class="chips"><span class="chip" style="color:#6b4c9a;background:#6b4c9a1a">AI</span><span class="chip" style="color:#44525f;background:#44525f1a">Assessment</span></div><b>GPT grades OSCE notes.</b> 433 notes: GPT-4o mini was consistent (ICC 0.94) but scored 0.65-1.12 points lower than faculty on a 1-4 scale; rank order agreed moderately (r 0.43-0.53) (Nash CJ et al. <i>Acad Med</i>. Online Oct 24, 2026). <a class="more" href="https://academic.oup.com/academicmedicine/advance-article/doi/10.1093/acamed/wvag336/8996721">Full text &rsaquo;</a></div></div></section><div class="foot"><b style="color:var(--ink)">Sources &amp; caveats:</b> Only items first online Oct 12-25, 2026, each from an abstract or page I read (Acad Med on OUP, PME, JAMA Network, ACGME). Checked with nothing new for med ed in the window: JAMA Network med ed collection, APPD. <b>Not checked this run</b> (Crossref, ScienceDirect, PubMed, Springer, and AAP/JGME sites blocked): <i>Academic Pediatrics</i>, <i>JGME</i> (Oct issue is out), <i>Pediatrics</i>, <i>Hosp Pediatr</i>, <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>Med Educ</i>, <i>Med Teach</i>, <i>Adv Health Sci Educ</i>, <i>TLM</i>, <i>NEJM</i>, <i>BMJ</i>, <i>Lancet</i>, <i>JAMA Intern Med</i>, <i>Ann Intern Med</i>, <i>JGIM</i>, <i>J Hosp Med</i>. Please verify before citing.</div></div><section class="past past-bottom"><div class="w"><div class="past-head"><div class="past-t">&#128218; Keep reading: more from the archive</div><a class="past-all" href="../archive.html">See all 6 issues &rarr;</a></div><div class="pcs"><a class="pc" href="../issues/2026-10-19-issue-5.html"><span class="pn">Issue 5 &middot; Audio</span><span class="ph">Our trainees are already using AI. Now what?</span><span class="pd">Week of Oct 19, 2026</span></a><a class="pc" href="../issues/2026-10-12-issue-4.html"><span class="pn">Issue 4 &middot; Audio</span><span class="ph">Who (and what) is in the room with our learners?</span><span class="pd">Week of Oct 12, 2026</span></a><a class="pc" href="../issues/2026-10-05-issue-3.html"><span class="pn">Issue 3 &middot; Audio</span><span class="ph">Safe to struggle, safe to say so.</span><span class="pd">Week of Oct 5, 2026</span></a><a class="pc" href="../issues/2026-09-28-issue-2.html"><span class="pn">Issue 2 &middot; Audio</span><span class="ph">&quot;Ready&quot; has to be proven now.</span><span class="pd">Week of Sept 28, 2026</span></a></div></div></section><div class="w"><div class="sign">The Monday Morning Drip &middot; AI-generated by Claude, not fully reviewed &middot; see you next Monday &#9749;</div></div><div class="w"><nav class="nav"><a href="../issues/2026-10-19-issue-5.html">&lsaquo; Issue 5</a><a href="../archive.html">All issues</a><span></span></nav></div></body></html>
