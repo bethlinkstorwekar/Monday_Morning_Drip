@@ -1,0 +1,253 @@
+{
+  "issue": 7,
+  "date_iso": "2026-11-02",
+  "week_label": "Week of Nov 2, 2026",
+  "breath_title": "Take care of the whole learner.",
+  "breath_text": "Nearly 1 in 3 trainees at one big academic center screened food insecure, with interns hit hardest. Elsewhere this week: a 90-minute workshop that makes students more confident teachers, a review showing we barely teach how to say &quot;I&#39;m not sure,&quot; and new Academic Pediatrics pieces on handover and source-grounded AI at the bedside.",
+  "in_this_issue": [
+    "Hungry interns",
+    "Students as teachers",
+    "Teaching uncertainty"
+  ],
+  "coffee": {
+    "title": "Coffee break with Beth",
+    "note": "In my own words. Written by Beth, not AI.",
+    "paragraphs": [
+      "The food insecurity study from Yale is somewhat staggering. Even with a low-ish survey response rate (28%), finding over 30% of trainees to have food insecurity is wild. They had 17 peds trainees (25% met criteria for food insecurity). They say that there may have been selection bias and also location cost of living impacts &mdash; but an earlier multi site study with higher participation rate still found 14% amongst trainees. Seems like meals at educational conferences might be more than a nice-to-have incentive for many &hellip;"
+    ],
+    "sign": "- Beth"
+  },
+  "calendar": [
+    {
+      "mon": "NOV",
+      "day": "2",
+      "text": "<b>Today: APPD Spring ELS proposals and PAS 2027 abstracts due.</b>",
+      "link_label": "APPD",
+      "url": "https://www.appd.org/meetings-education/future-annual-meetings/"
+    },
+    {
+      "mon": "NOV",
+      "day": "19",
+      "text": "<b>ACGME Clinician Educator Journal Club.</b> Tabletop gameplay for team dynamics on rounds. Noon CT.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/october-26-2026/"
+    },
+    {
+      "mon": "JAN",
+      "day": "8",
+      "text": "<b>Milestones mid-year window closes.</b> Reporting is open now in ADS.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/october-26-2026/"
+    }
+  ],
+  "top": [
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Well-being",
+          "coral"
+        ],
+        [
+          "GME",
+          "teal"
+        ],
+        [
+          "Beth's pick",
+          "coral"
+        ]
+      ],
+      "headline": "Almost 1 in 3 trainees screened food insecure, and interns had it worst",
+      "bullets": [
+        "Anonymous survey at Yale New Haven: <b>164</b> residents and fellows (about 28% of ~600 eligible) completed the 10-item USDA module.",
+        "<b>30.5%</b> were food insecure; PGY-1s <b>45.3%</b> vs <b>23.4%</b> of later years (OR 2.71).",
+        "Lack of money was strongly tied to food insecurity (75% vs 4%); lack of time was not."
+      ],
+      "tip_label": "Try this:",
+      "tip": "add a validated food-security screen to your intern check-ins, and treat conference meals and move-in support as real resources, not perks.",
+      "citation": "Mahan E, Demiray A, Huot SJ, Criscione J, Vazquez M. <i>JAMA Netw Open</i>. 2026;9(10):e2640774. Published online Oct 26, 2026. doi:10.1001/jamanetworkopen.2026.40774",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855824"
+        }
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Teaching",
+          "teal"
+        ],
+        [
+          "UME",
+          "slate"
+        ]
+      ],
+      "headline": "A 90-minute microteaching workshop builds confident near-peer teachers",
+      "bullets": [
+        "IM clerkship students gave a 5-minute talk with feedback in week 1, then a revised talk in the final week.",
+        "Vs peers at other Harvard sites (41/51 vs 21/103 responded), confidence teaching rose more (beta <b>0.72</b>) and so did confidence giving peer feedback (beta <b>0.77</b>).",
+        "Now part of the IM clerkship and residency program; can run virtually."
+      ],
+      "tip_label": "Try this:",
+      "tip": "borrow the format for intern orientation: one short talk, peer feedback, and a redo at the end of the block.",
+      "citation": "Zhou JC, Krupat E, Gottlieb BR, Kumar NL, Petersen EM, Osman NY. <i>Acad Med</i>. Online Oct 29, 2026. doi:10.1093/acamed/wvag343",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/article-lookup/doi/10.1093/acamed/wvag343"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42954341/"
+        }
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Communication",
+          "teal"
+        ],
+        [
+          "Assessment",
+          "slate"
+        ]
+      ],
+      "headline": "We barely teach how to say &quot;I&#39;m not sure&quot;: a scoping review",
+      "bullets": [
+        "<b>18,810</b> records screened; only <b>21</b> studies made the cut, mostly UME/GME and mostly about diagnostic uncertainty.",
+        "Methods were experiential (simulation, SPs, OSCEs, role-play); fewer than half involved patients.",
+        "Mean MERSQI 10.4, and <b>no</b> study measured clinical practice or patient outcomes."
+      ],
+      "tip_label": "Synthesis:",
+      "tip": "a wide-open scholarship gap. Add an uncertainty-talk station to your next family-centered rounds sim and measure it.",
+      "citation": "Papanagnou D, Dahm MR, Adamczyk A, et al., Santhosh L. <i>Acad Med</i> (scoping review). Online Oct 28, 2026. doi:10.1093/acamed/wvag342",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://academic.oup.com/academicmedicine/article-lookup/doi/10.1093/acamed/wvag342"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42949089/"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>Milestones scheduling changes.</b> Off-cycle starters are now auto-scheduled for Milestones after 60 days, and learners on or back from a leave of absence are scheduled too (ACGME e-Comm, Oct 26).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/october-26-2026/"
+        }
+      ]
+    }
+  ],
+  "acadpeds": [
+    {
+      "chips": [
+        [
+          "Handover",
+          "teal"
+        ]
+      ],
+      "text": "<b>Best Practices for Learner Handover.</b> A new piece for the APPD Faculty and Professional Development Task Force. <i>Title only: no abstract.</i>",
+      "authors": "Torwekar B, DeBell M, Brown A. Online Oct 27, 2026.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103493"
+    },
+    {
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Teaching",
+          "teal"
+        ]
+      ],
+      "text": "<b>Teaching in the Walled Garden.</b> A Nuts and Bolts piece on source-grounded AI and the RACE prompt framework for bedside teaching. <i>Title only: no abstract.</i>",
+      "authors": "McGaughey S, Wackett J, Bailey J. Online Oct 27, 2026.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103496"
+    },
+    {
+      "chips": [
+        [
+          "Assessment",
+          "teal"
+        ],
+        [
+          "Fellows",
+          "teal"
+        ]
+      ],
+      "text": "<b>Validity evidence for the CLAR leadership tool in pediatric fellows.</b> <i>Title only: abstract not reachable this run.</i>",
+      "authors": "Czaja AS, Schwartz A, ... Mink R. In press (alert Oct 31, 2026).",
+      "link_label": "Article",
+      "url": "https://www.academicpedsjnl.net/article/S1876-2859(26)00268-8/fulltext"
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Sim",
+          "teal"
+        ]
+      ],
+      "text": "<b>Wristbands as assessors?</b> Physiologic signals from 152 learners in 470 sims classified faculty-rated novice vs competent with 84-85% balanced accuracy (Teye-Lartey SP et al. <i>Adv Health Sci Educ</i>. Online Oct 29, 2026).",
+      "url": "https://doi.org/10.1007/s10459-026-10590-4"
+    },
+    {
+      "chips": [
+        [
+          "Recruitment",
+          "teal"
+        ]
+      ],
+      "text": "<b>Ask about the past, not hypotheticals.</b> Past-behavior MMI questions beat situational ones (corrected r 0.44) and predicted 2 years of MSF; the professionalism station did not (Yoshimura H, Ponnamperuma G. <i>Med Teach</i>. Online Oct 29, 2026).",
+      "url": "https://doi.org/10.1080/0142159X.2026.2752868"
+    },
+    {
+      "chips": [
+        [
+          "Equity",
+          "coral"
+        ],
+        [
+          "UME",
+          "slate"
+        ]
+      ],
+      "text": "<b>What inclusive educators do.</b> URiM and LGBTQ+ students named educators who model compassionate care, address bias, and recognize extra burdens (Calles I, Schreiber J, Diller D. <i>Med Teach</i>. Online Oct 29, 2026).",
+      "url": "https://doi.org/10.1080/0142159X.2026.2739526"
+    },
+    {
+      "chips": [
+        [
+          "Professionalism",
+          "slate"
+        ]
+      ],
+      "text": "<b>Professionalism is institutional, too.</b> Hafferty and Hamstra argue the movement should shift from individual physicians to the profession and its institutions (<i>Acad Med</i>. Online Oct 28, 2026).",
+      "url": "https://academic.oup.com/academicmedicine/article-lookup/doi/10.1093/acamed/wvag339"
+    }
+  ],
+  "footer": "New this week: PubMed/journal email alerts (PubMed saved search, Oct 30; Academic Pediatrics in-press alerts, Oct 30-Nov 2). Windows: <i>Acad Pediatr</i>, <i>JGME</i>, <i>Pediatrics</i> since Sep 21 (6-week catch-up); all other journals first online Oct 19-Nov 1, 2026. Summaries come only from abstracts I read; title-only items are marked. The PubMed alert showed 20 of 66 new items, so some JGME/<i>Pediatrics</i> papers may be missing; none in-window appeared. Not checked: <i>Hosp Pediatr</i> (beyond the alert), <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>TLM</i>, <i>PME</i>, NEJM, BMJ, Lancet, <i>JAMA IM</i>, <i>Ann Intern Med</i>, JGIM, JHM; APPD, ABP, NRMP, AAMC news. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-11-02-issue-7.mp3",
+    "bytes": 2671177,
+    "seconds": 334,
+    "voice": "en_US-lessac-high"
+  }
+}

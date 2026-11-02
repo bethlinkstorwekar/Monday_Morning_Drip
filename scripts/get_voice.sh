@@ -2,7 +2,7 @@
 # Install the podcast tools and download the Piper voice (needs huggingface.co
 # and *.hf.co allowed in the environment's network settings).
 set -e
-pip install -q piper-tts lameenc
+python3 -m pip install -q piper-tts lameenc
 VOICE=${1:-lessac/high/en_US-lessac-high}
 DIR="$HOME/voices"
 NAME=$(basename "$VOICE")
