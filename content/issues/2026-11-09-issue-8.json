@@ -1,0 +1,269 @@
+{
+  "issue": 8,
+  "date_iso": "2026-11-09",
+  "week_label": "Week of Nov 9, 2026",
+  "breath_title": "Keep the human in the loop.",
+  "breath_text": "The APA Education Committee hand-sifted 2,996 abstracts to name the 11 must-read med ed papers of 2025. Meanwhile, most IM clerkships still have no clear AI policy, a medical school study finds that early struggles predict later ones (and need more than academic fixes), and a new essay asks how we grow after we get it wrong.",
+  "in_this_issue": [
+    "Top 11 of 2025",
+    "AI policy gap",
+    "Early struggles"
+  ],
+  "coffee": {
+    "title": "Coffee break with Beth",
+    "note": "In my own words. Written by Beth, not AI.",
+    "paragraphs": [
+      "This week is a short one since I&#39;m on service - just a note to amplify the work by the indomitable Gayatri Madduri and team on top articles in Peds Med Ed. 2,996 abstracts, 120 full text articles, 11 selected. Wow wow! And for what it&#39;s worth in this age of AI, I very much stand behind the importance of human touch in doing this onerous review to describe and shape our field."
+    ],
+    "sign": "- Beth"
+  },
+  "calendar": [
+    {
+      "mon": "NOV",
+      "day": "16",
+      "text": "<b>APA APEX and THRIVE applications close.</b> APEX: 13-month teaching program (PAS or PHM track). 11:59 pm ET.",
+      "link_label": "APA",
+      "url": "https://www.academicpeds.org/"
+    },
+    {
+      "mon": "NOV",
+      "day": "19",
+      "text": "<b>ACGME Clinician Educator Journal Club.</b> Tabletop gameplay for team dynamics. Noon CT.",
+      "link_label": "ACGME",
+      "url": "https://prod.acgme.org/newsroom/e-communication/2026/november-2-2026/"
+    },
+    {
+      "mon": "JAN",
+      "day": "8",
+      "text": "<b>Milestones mid-year window closes.</b>",
+      "link_label": "ACGME",
+      "url": "https://prod.acgme.org/newsroom/e-communication/2026/november-2-2026/"
+    }
+  ],
+  "top": [
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Must-read list",
+          "teal"
+        ],
+        [
+          "CBME",
+          "teal"
+        ],
+        [
+          "Beth's pick",
+          "coral"
+        ]
+      ],
+      "headline": "Your 2025 med ed reading list, curated by humans: 11 papers out of 2,996",
+      "bullets": [
+        "APA Education Committee members screened 18 journals with blinded, standardized scoring of <b>2,996</b> abstracts, then read <b>120</b> full texts.",
+        "Consensus picked <b>11</b> Top Articles in <b>6</b> domains: CBME assessment for residents, CBME assessment for fellows, metrics, wellness, anti-racism, and belonging.",
+        "Common threads: standardizing assessment (e.g., EPAs), promoting belonging, and supporting trainee retention and well-being."
+      ],
+      "tip_label": "Try this:",
+      "tip": "make it a journal club series: one domain per month gets you through the list by spring. Open access.",
+      "citation": "Congdon M, Madduri GB, Frohna JG, Han P, Li ST, Lyle ANJ, Roth LT, Seelbach EB. <i>Acad Pediatr</i>. Online Nov 4, 2026. doi:10.1016/j.acap.2026.103731",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1016/j.acap.2026.103731"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42982227/"
+        }
+      ]
+    },
+    {
+      "color": "purple",
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "UME",
+          "slate"
+        ],
+        [
+          "Policy",
+          "teal"
+        ]
+      ],
+      "headline": "Is AI cheating? Most clerkship directors aren&#39;t sure what the rules are",
+      "bullets": [
+        "National survey of IM clerkship directors (Sep-Dec 2024): <b>114/141</b> schools responded (80.9%).",
+        "<b>39.5%</b> reported no formal AI policy and <b>34.2%</b> didn&#39;t know if one existed. AI on a reflection essay was &quot;cheating&quot; to <b>42.9%</b> vs <b>5.2%</b> for clinical diagnosis.",
+        "<b>73.7%</b> would encourage AI for at least one clinical skill, but only <b>6.1%</b> said their institution offers firewall-protected AI tools."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "residents supervise these students. Agree on a unit-level AI norm (what&#39;s OK, what needs disclosure) before students guess.",
+      "citation": "McQuade CN, Kumar NL, Schaye V, Olson APJ, Hufmeyer KK, McBee E, Kisielewski M, Osman NY, Bonifacino E. <i>Acad Med</i>. Online Nov 5, 2026. doi:10.1093/acamed/wvag350",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1093/acamed/wvag350"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42989549/"
+        }
+      ]
+    },
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Remediation",
+          "coral"
+        ],
+        [
+          "UME",
+          "slate"
+        ]
+      ],
+      "headline": "Remediation once, risk again: what 758 medical students teach us",
+      "bullets": [
+        "Five cohorts (matriculated 2014-2018): <b>146/758 (19.3%)</b> needed at least one pre-clinical block remediation; 81 remediated 2-5 blocks.",
+        "No exam-trend pattern flagged who would struggle, but prior remediation raised the odds of future block struggles.",
+        "Any remediation was tied to extra Step 1 study time and more first-attempt Step 1 failures; the number of remediations was not."
+      ],
+      "tip_label": "Synthesis:",
+      "tip": "a struggle is a signal, not a sentence. Pair academic plans with social and well-being support, and most learners go on to thrive.",
+      "citation": "Anstey JE, Haedinger LA, Philipp TC, Schneider BN, Albright A, Carney PA, Pope BA. <i>Med Teach</i>. Online Nov 3, 2026. doi:10.1080/0142159X.2026.2749548",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1080/0142159X.2026.2749548"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42976043/"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>New ACGME Cloud dashboards.</b> Custom Compliance Settings let institutions set their own benchmarks and flag programs below them; Download Data exports dashboard data (e-Comm, Nov 2).",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://prod.acgme.org/newsroom/e-communication/2026/november-2-2026/"
+        }
+      ]
+    }
+  ],
+  "acadpeds": [
+    {
+      "chips": [
+        [
+          "Narrative",
+          "coral"
+        ],
+        [
+          "Inpatient",
+          "teal"
+        ]
+      ],
+      "text": "<b>My Life, My Story, for kids.</b> Duke adapted the VA life-story program: 34 inpatients and caregivers; 6 themes (e.g., &quot;What makes me &#39;me&#39;&quot;) that could enrich social histories.",
+      "authors": "Ayyappan M, ... Loriaux AB. Online Nov 4, 2026.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103736"
+    },
+    {
+      "chips": [
+        [
+          "Training",
+          "teal"
+        ],
+        [
+          "Mental health",
+          "coral"
+        ]
+      ],
+      "text": "<b>Does MH training change practice?</b> 425 REACH-trained clinicians vs 537 matched peers: more MH services and prescribing, but no change in psychotherapy or ED visits.",
+      "authors": "Gilbert JL, ... Krist AH. Online Nov 3, 2026.",
+      "url": "https://doi.org/10.1016/j.acap.2026.103737"
+    },
+    {
+      "chips": [
+        [
+          "Continuity",
+          "teal"
+        ]
+      ],
+      "text": "<b>Pediatric Resident Continuity Clinics: 30 Years Later.</b> <i>Title only: abstract not reachable.</i>",
+      "authors": "Quadri M, ... Feigelman S. In press (alert Nov 7, 2026).",
+      "link_label": "Article",
+      "url": "https://www.academicpedsjnl.net/article/S1876-2859(26)00530-9/fulltext"
+    },
+    {
+      "chips": [
+        [
+          "UME",
+          "slate"
+        ],
+        [
+          "Parents",
+          "coral"
+        ]
+      ],
+      "text": "<b>Learning through Caregiving.</b> Qualitative study of a medical student elective for new parents. <i>Title only: abstract not reachable.</i>",
+      "authors": "Yung MT, ... Krohn K. In press (alert Nov 7, 2026).",
+      "link_label": "Article",
+      "url": "https://www.academicpedsjnl.net/article/S1876-2859(26)00534-6/fulltext"
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "Identity",
+          "coral"
+        ]
+      ],
+      "text": "<b>Error, failure, fallibility.</b> A Theory Matters piece separates the event, the judgment, and the human condition, and proposes &quot;fallibility integration&quot; in professional identity formation (Adkins S, Andarsio E. <i>Adv Health Sci Educ</i>. Online Nov 3, 2026).",
+      "url": "https://doi.org/10.1007/s10459-026-10594-0"
+    },
+    {
+      "chips": [
+        [
+          "Empathy",
+          "coral"
+        ]
+      ],
+      "text": "<b>Can reading build empathy?</b> Meta-analysis of 14 studies (1,593 people): SMD 0.83 for literary-arts interventions, but I2 96% and low-quality evidence (Winter R et al. <i>Med Teach</i>. Online Nov 4, 2026).",
+      "url": "https://doi.org/10.1080/0142159X.2026.2752855"
+    },
+    {
+      "chips": [
+        [
+          "Curriculum",
+          "slate"
+        ]
+      ],
+      "text": "<b>Changing a curriculum?</b> Scoping review: 21 studies, 17 change models (Kotter&#39;s 8 steps most common); none fit every setting (Arooj M et al. <i>Med Teach</i>. Online Nov 5, 2026).",
+      "url": "https://doi.org/10.1080/0142159X.2026.2752857"
+    },
+    {
+      "chips": [
+        [
+          "Equity",
+          "coral"
+        ]
+      ],
+      "text": "<b>Two-Eyed Seeing PhD.</b> UND&#39;s Indigenous Health PhD: 87 students in 7 cohorts, 32 graduates, only 4 left (Schroeder S, Nadeau M. <i>Acad Med</i>. Online Nov 5, 2026).",
+      "url": "https://doi.org/10.1093/acamed/wvag349"
+    }
+  ],
+  "footer": "PubMed/journal email alerts: PubMed saved search (Nov 6; showed 20 of 81 new items) and Academic Pediatrics in-press alerts (Nov 3, 4, 6, 7). Windows: <i>Acad Pediatr</i>, <i>JGME</i>, <i>Pediatrics</i> first online or in an issue Oct 12-Nov 8; all other journals first online Oct 26-Nov 8, 2026. Summaries come only from abstracts I read; title-only items are marked. No in-window JGME or med ed <i>Pediatrics</i> items appeared among the 20 shown. Not checked: the other 61 PubMed items, <i>Hosp Pediatr</i>, <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>TLM</i>, <i>PME</i>, JAMA network, NEJM, BMJ, Lancet, <i>Ann Intern Med</i>, JGIM, JHM; APPD, ABP, NRMP, AAMC news. Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-11-09-issue-8.mp3",
+    "bytes": 3046922,
+    "seconds": 381,
+    "voice": "en_US-lessac-high"
+  }
+}
