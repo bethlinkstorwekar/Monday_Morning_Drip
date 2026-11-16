@@ -1,0 +1,212 @@
+{
+  "issue": 9,
+  "date_iso": "2026-11-16",
+  "week_label": "Week of Nov 16, 2026",
+  "breath_title": "It&#39;s the environment, not the checklist.",
+  "breath_text": "Applicants aren&#39;t ranking program attributes; they&#39;re choosing a learning environment where they hope to grow. That same theme runs through this week: clinical teachers who feel judged by student evaluations that miss their world, a call for a shared vocabulary so coaching can be studied, and new reviews on belonging and on what it means when students feel unmotivated.",
+  "in_this_issue": [
+    "How applicants choose",
+    "Rethinking SETs",
+    "What coaching is"
+  ],
+  "calendar": [
+    {
+      "mon": "NOV",
+      "day": "16",
+      "text": "<b>Today: APA APEX and THRIVE applications close.</b> 11:59 pm ET.",
+      "link_label": "APA",
+      "url": "https://www.academicpeds.org/"
+    },
+    {
+      "mon": "NOV",
+      "day": "19",
+      "text": "<b>ACGME Clinician Educator Journal Club.</b> Round34: tabletop gameplay for team dynamics. Noon CT.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/november-9-2026/"
+    },
+    {
+      "mon": "JAN",
+      "day": "8",
+      "text": "<b>Milestones mid-year window closes.</b>",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/october-26-2026/"
+    },
+    {
+      "mon": "FEB",
+      "day": "25",
+      "text": "<b>ACGME Annual Educational Conference.</b> Feb 25-27, San Antonio; new conference job board is open.",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/november-9-2026/"
+    }
+  ],
+  "top": [
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Recruitment",
+          "teal"
+        ],
+        [
+          "Match",
+          "teal"
+        ],
+        [
+          "UME-GME",
+          "slate"
+        ]
+      ],
+      "headline": "Interview season check: applicants are choosing a learning environment, not a feature list",
+      "bullets": [
+        "Scoping review of <b>65</b> studies (2015-June 2026, US/Canada) in <b>41</b> journals; <b>95.4%</b> were surveys, mostly author-built.",
+        "<b>1,237</b> selection factors (about <b>19</b> per study), mapped to a Learning Environment framework: social <b>25.6%</b>, organizational <b>25.3%</b>, personal <b>24.7%</b>, societal <b>20.6%</b>.",
+        "Physical and virtual space factors were rarely studied (<b>2.4%</b>)."
+      ],
+      "tip_label": "Try this:",
+      "tip": "audit your interview day by domain. Do applicants see the social and organizational culture (residents, feedback, support), or just the rotation schedule?",
+      "citation": "Perez NA, Martinez AM, Means C, Hall E, Costello JA, Gilbert E, Maggio LA. <i>Acad Med</i>. Online Nov 7, 2026. doi:10.1093/acamed/wvag351",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1093/acamed/wvag351"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42997972/"
+        }
+      ]
+    },
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Faculty",
+          "coral"
+        ],
+        [
+          "Assessment",
+          "teal"
+        ]
+      ],
+      "headline": "&quot;This is just not their world&quot;: clinical teachers on student evaluations of teaching",
+      "bullets": [
+        "Toronto Department of Medicine interviews: <b>10</b> faculty leaders and <b>15</b> frontline clinical teachers across subspecialties.",
+        "Clinical workload and relationships with learners shaped how faculty experienced SETs; many felt departments didn&#39;t respond to their concerns, leaving them isolated and undervalued.",
+        "Many doubted SETs were fair or useful for high-stakes decisions without safeguards. Suggested alternatives: peer review, third-party observation, and credit for mentoring and curriculum work."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "if learner evaluations feed promotion files, pair them with direct observation or peer review and tell faculty how the data are used.",
+      "citation": "Lee C, Chandran N, Dhamko H, Bui E, McDonald-Blumer H, Brydges R. <i>Med Teach</i>. Online Nov 11, 2026. doi:10.1080/0142159X.2026.2756415",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1080/0142159X.2026.2756415"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43013412/"
+        }
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Coaching",
+          "teal"
+        ],
+        [
+          "Well-being",
+          "coral"
+        ]
+      ],
+      "headline": "Coach, mentor, advisor, therapist? A shared dictionary for coaching programs",
+      "bullets": [
+        "A Scholarly Perspective from the CHARM Coaching Network proposes standard definitions across <b>5</b> dimensions: coaching format, modality, type, framework, and focus.",
+        "Separates professional (developmental) coaching from mentoring, advising, and therapy that use a &quot;coach approach.&quot;",
+        "Describes the core coaching process and the difference between coach training, certification, credentialing, and accreditation."
+      ],
+      "tip_label": "Try this:",
+      "tip": "before you launch or evaluate a resident coaching program, write down which kind of coaching it is, using these terms, so your outcomes can be compared.",
+      "citation": "de Guillebon E, Dyne P, Caylor T, Pendo A, Berliner J, Sikon A, Palamara K. <i>Acad Med</i>. Online Nov 10, 2026. doi:10.1093/acamed/wvag353",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1093/acamed/wvag353"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43009210/"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "text": "<b>ACGME e-Comm, Nov 9.</b> AEC 2027 job board opens; the OB/GYN Review Committee starts its 10-year requirements revision and is recruiting PDs for interviews; ACGME LINC tonight (Nov 16, 5 pm CT) covers rural GME and Cloud updates.",
+      "links": [
+        {
+          "label": "ACGME",
+          "url": "https://www.acgme.org/newsroom/e-communication/2026/november-9-2026/"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "Pediatrics",
+          "coral"
+        ],
+        [
+          "Workforce",
+          "teal"
+        ]
+      ],
+      "text": "<b>AAP policy: pediatric workforce diversity.</b> Three focus areas: grow the URiM pipeline, improve recruitment, retention, and leadership development of URiM pediatricians, and advance culturally effective care (Ndjatou T et al.; Section on Pediatric Trainees co-author. <i>Pediatrics</i>. Online Nov 9, 2026).",
+      "url": "https://doi.org/10.1542/peds.2026-079369"
+    },
+    {
+      "chips": [
+        [
+          "UME",
+          "slate"
+        ],
+        [
+          "Policy",
+          "teal"
+        ]
+      ],
+      "text": "<b>Clerkship absence policies.</b> IM clerkship director survey: 116/140 schools (83.0%); 81% have a list of approvable absences. Authors urge simpler lists and in-person make-up time (Fitzpatrick JH et al. <i>Acad Med</i>. Online Nov 2, 2026).",
+      "url": "https://doi.org/10.1093/acamed/wvag347"
+    },
+    {
+      "chips": [
+        [
+          "Belonging",
+          "coral"
+        ]
+      ],
+      "text": "<b>Belonging for URiM students.</b> Scoping review of 41 sources (39 since 2020): barriers, costs like masking and overperformance, and institutional fixes. Make belonging an outcome (Lim JJ et al. <i>Adv Health Sci Educ</i>. Online Nov 11, 2026).",
+      "url": "https://doi.org/10.1007/s10459-026-10599-9"
+    },
+    {
+      "chips": [
+        [
+          "Motivation",
+          "slate"
+        ]
+      ],
+      "text": "<b>&quot;Useless, too much, no one cares.&quot;</b> 16 pre-clinical students drew and discussed feeling unmotivated: boredom and overwhelm turned learning transactional (Schipper SA et al. <i>Med Educ</i>. Online Nov 10, 2026).",
+      "url": "https://doi.org/10.1111/medu.70355"
+    }
+  ],
+  "footer": "PubMed/journal email alerts: PubMed saved search (Nov 13; showed 20 of 33 new items) and Academic Pediatrics in-press alert (Nov 13; one non-med-ed item). Windows: <i>Acad Pediatr</i>, <i>JGME</i>, <i>Pediatrics</i> first online or in an issue Oct 19-Nov 15; all other journals first online Nov 2-Nov 15, 2026. Summaries come only from abstracts I read. No new in-window med ed <i>Acad Pediatr</i> or <i>JGME</i> items appeared; last week&#39;s two title-only <i>Acad Pediatr</i> items still have no reachable abstract. Not checked: the other 13 PubMed items, <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>TLM</i>, <i>PME</i>, NEJM, BMJ, Lancet, <i>Ann Intern Med</i>, JGIM, JHM; ABP, NRMP, AAMC news (JAMA collection showed nothing newer than Oct 29). Please verify before citing.",
+  "podcast": {
+    "file": "audio/2026-11-16-issue-9.mp3",
+    "bytes": 2616842,
+    "seconds": 327,
+    "voice": "en_US-lessac-high"
+  }
+}
