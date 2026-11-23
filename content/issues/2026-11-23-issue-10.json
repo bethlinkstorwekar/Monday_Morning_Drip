@@ -1,0 +1,242 @@
+{
+  "issue": 10,
+  "date_iso": "2026-11-23",
+  "week_label": "Week of Nov 23, 2026",
+  "breath_title": "Judge, coach, or co-signer?",
+  "breath_text": "An LLM now drafts discharge summaries that physicians would sign more often than human-written ones, turning writers into reviewers. Programs adopting programmatic assessment are still sorting out the supervisor who both judges and supports. And conflict management is still mostly measured at the smile-sheet level.",
+  "in_this_issue": [
+    "AI discharge summaries",
+    "Programmatic assessment tensions",
+    "Teaching conflict management"
+  ],
+  "coffee": {
+    "title": "Coffee break with Beth",
+    "note": "In my own words. Written by Beth, not AI.",
+    "paragraphs": [
+      "A JAMA open network piece on AI discharge summaries is interesting food for thought - practicing physicians reviewed about 650 AI-generated vs about the same # of human-generated DC summaries against hospital records... and rated whether they would sign off on the summaries. Evidently the AI-generated ones were 22 percentage points more likely to be signed off on. The sticking point for educators seems to be that signing off on an AI-generated DC summary is essentially leveraging supervisory skills and judgment. I&#39;m not sure if it&#39;s possible to instill supervisory skills earlier in our education models, or if the current structure where foundational knowledge is necessary before supervising will stand. Shifting to earlier focus on supervisory skills may end up being necessary if these agents start doing more and more?"
+    ],
+    "sign": "- Beth"
+  },
+  "calendar": [
+    {
+      "mon": "NOV",
+      "day": "30",
+      "text": "<b>APA Call for Member Leaders.</b>",
+      "link_label": "APA",
+      "url": "https://www.academicpeds.org/"
+    },
+    {
+      "mon": "DEC",
+      "day": "3",
+      "text": "<b>APA Pillar Award nominations (extended).</b>",
+      "link_label": "APA",
+      "url": "https://www.academicpeds.org/"
+    },
+    {
+      "mon": "DEC",
+      "day": "7",
+      "text": "<b>APA APEX Teaching Program (extended).</b>",
+      "link_label": "APA",
+      "url": "https://www.academicpeds.org/"
+    },
+    {
+      "mon": "DEC",
+      "day": "14",
+      "text": "<b>APA QI Research Conference abstracts.</b> Apr 30, 2027 (PAS).",
+      "link_label": "APA",
+      "url": "https://www.academicpeds.org/"
+    },
+    {
+      "mon": "JAN",
+      "day": "8",
+      "text": "<b>Milestones mid-year window closes.</b>",
+      "link_label": "ACGME",
+      "url": "https://www.acgme.org/newsroom/e-communication/2026/october-26-2026/"
+    }
+  ],
+  "top": [
+    {
+      "color": "purple",
+      "chips": [
+        [
+          "AI",
+          "purple"
+        ],
+        [
+          "Supervision",
+          "teal"
+        ],
+        [
+          "Beth's pick",
+          "coral"
+        ]
+      ],
+      "headline": "The AI wrote the discharge summary. Would you sign it?",
+      "bullets": [
+        "5 London hospitals: <b>12</b> physicians rated <b>1,294</b> discharge summaries (<b>649</b> clinician-written, <b>645</b> by GPT-4o mini with a clinician-codesigned prompt) against the full admission record.",
+        "Signoff with no or minor edits was <b>22.2</b> points higher for LLM summaries (95% CI 19.0-27.5); noninferior. LLM drafts also rated higher on accuracy, completeness, tone, and clarity.",
+        "Potential harm rated 3+ in the clinical summary: <b>26.2%</b> of LLM vs <b>45.1%</b> of clinician summaries. Authors stress close clinician oversight."
+      ],
+      "tip_label": "Why it matters:",
+      "tip": "the skill shifts from writing to verifying. The invited commentary calls it a &quot;verification paradox&quot;: the long, messy admissions where AI helps most are the hardest to check.",
+      "citation": "Goldsmith K, Arribas M, Damirova F, et al. <i>JAMA Netw Open</i>. 2026;9(11):e2644496. Online Nov 17, 2026. doi:10.1001/jamanetworkopen.2026.44496",
+      "links": [
+        {
+          "label": "Full text (open access)",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856756"
+        },
+        {
+          "label": "Commentary",
+          "url": "https://doi.org/10.1001/jamanetworkopen.2026.44505"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043638/"
+        }
+      ]
+    },
+    {
+      "color": "teal",
+      "chips": [
+        [
+          "Assessment",
+          "teal"
+        ],
+        [
+          "CBME",
+          "teal"
+        ]
+      ],
+      "headline": "Judge or coach? The paradoxes of programmatic assessment in GME",
+      "bullets": [
+        "Scoping review of <b>47</b> articles on how postgraduate programs handle tensions when adopting programmatic assessment.",
+        "Tensions: structure vs flexibility, patient safety vs trainee needs, service vs training time, and supervisors balancing judging and supporting.",
+        "Fixes: both/and (co-production, coaching, shared mental models) and either/or (separate assessor and coach roles)."
+      ],
+      "tip_label": "Try this:",
+      "tip": "decide on purpose whether coaches also assess at CCC, and tell residents which hat each person wears.",
+      "citation": "Murphy DA, Lister B, Denniston C. <i>Med Educ</i>. Online Nov 18, 2026. doi:10.1111/medu.70361",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1111/medu.70361"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43049236/"
+        }
+      ]
+    },
+    {
+      "color": "coral",
+      "chips": [
+        [
+          "Communication",
+          "coral"
+        ],
+        [
+          "Curriculum",
+          "teal"
+        ]
+      ],
+      "headline": "Beyond &quot;be professional&quot;: how we teach conflict management",
+      "bullets": [
+        "Baylor/Texas Children&#39;s-led scoping review: <b>2,716</b> citations screened, <b>87</b> studies from <b>15</b> countries.",
+        "<b>40</b> taught conflict management alone; <b>47</b> embedded it in leadership or communication curricula, often via role-play, simulation, improv, or VR.",
+        "Most measured only Kirkpatrick levels 1-2; few looked at behavior change or organizational impact."
+      ],
+      "tip_label": "Try this:",
+      "tip": "add one realistic conflict case (consultant, nurse, or family) to intern simulation, then follow up with a workplace observation.",
+      "citation": "Afonso N, Petrescu M, Jacob S, et al. <i>Med Teach</i>. Online Nov 17, 2026. doi:10.1080/0142159X.2026.2749545",
+      "links": [
+        {
+          "label": "Full text",
+          "url": "https://doi.org/10.1080/0142159X.2026.2749545"
+        },
+        {
+          "label": "Abstract (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43042486/"
+        }
+      ]
+    }
+  ],
+  "acadpeds": [
+    {
+      "chips": [
+        [
+          "Residency",
+          "teal"
+        ],
+        [
+          "Adolescent health",
+          "coral"
+        ]
+      ],
+      "text": "<b>How are we preparing pediatric residents in adolescent sexual and reproductive health care?</b> <i>Title only: abstract not reachable this run.</i>",
+      "authors": "Golub SA, Criss B, Grant MJ, Shubkin CD, Marken C, Schwartz A, Shafii T. In press, alert Nov 21, 2026.",
+      "link_label": "Article",
+      "url": "https://www.academicpedsjnl.net/article/S1876-2859(26)00544-9/fulltext"
+    }
+  ],
+  "quick": [
+    {
+      "chips": [
+        [
+          "Match",
+          "slate"
+        ],
+        [
+          "Advising",
+          "teal"
+        ]
+      ],
+      "text": "<b>Three-touch match risk tiers.</b> FIU&#39;s green/yellow/red tiers at Step 2, application strategy, and interview count; 95% matched pre-SOAP vs 83% before (Rodriguez AL et al. <i>Acad Med</i>. Nov 18).",
+      "url": "https://doi.org/10.1093/acamed/wvag356"
+    },
+    {
+      "chips": [
+        [
+          "Assessment",
+          "teal"
+        ],
+        [
+          "Data",
+          "purple"
+        ]
+      ],
+      "text": "<b>Learning analytics dashboards.</b> 20 UME studies; only 3 tested whether dashboards improved outcomes (Ng O et al. <i>Med Educ</i>. Nov 16).",
+      "url": "https://doi.org/10.1111/medu.70354"
+    },
+    {
+      "chips": [
+        [
+          "Faculty",
+          "coral"
+        ]
+      ],
+      "text": "<b>The &quot;credibility economy.&quot;</b> 17 non-physician PhD leaders on earning, then spending, credibility (Bano N, Lingard L. <i>Med Educ</i>. Nov 16).",
+      "url": "https://doi.org/10.1111/medu.70360"
+    },
+    {
+      "chips": [
+        [
+          "GME",
+          "teal"
+        ],
+        [
+          "Boards",
+          "slate"
+        ]
+      ],
+      "text": "<b>Private equity and EM boards.</b> Lower raw EM qualifying-exam pass rates (81.6% vs 89.6%) vanished after adjusting for program age and type (Shearer E et al. <i>JAMA Netw Open</i>. Nov 10).",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856369"
+    }
+  ],
+  "footer": "PubMed alert (Nov 20; 20 of 32 items shown), Academic Pediatrics alerts (Nov 19-23), APA email (Nov 19). Windows: <i>Acad Pediatr</i>, <i>JGME</i>, <i>Pediatrics</i> Oct 26-Nov 22; others first online Nov 9-22, 2026. Summaries only from abstracts read; Acad Pediatr item is title only. No new med ed <i>JGME</i>/<i>Pediatrics</i> items. Not checked: 12 PubMed items, <i>J Pediatr</i>, <i>JAMA Pediatr</i>, <i>TLM</i>, <i>PME</i>, NEJM, BMJ, Lancet, <i>Ann Intern Med</i>, JGIM, JHM; APPD/ABP/NRMP/AAMC news; ACGME e-Comm after Nov 2. Verify before citing.",
+  "podcast": {
+    "file": "audio/2026-11-23-issue-10.mp3",
+    "bytes": 2778383,
+    "seconds": 347,
+    "voice": "en_US-lessac-high"
+  }
+}
